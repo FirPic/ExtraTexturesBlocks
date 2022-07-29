@@ -1,5 +1,7 @@
 package fr.firpic.extratexturesblocks;
 
+import fr.firpic.extratexturesblocks.blocks.AncientStone;
+import fr.firpic.extratexturesblocks.items.EtbItemsRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
@@ -30,6 +32,15 @@ public class ExtraTexturesBlocks {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
+
+        AncientStone.register(eventBus);
+
+
+
+
+        EtbItemsRegistry.register(eventBus);
+
+
         // Register the enqueueIMC method for modloading
         eventBus.addListener(this::enqueueIMC);
         // Register the processIMC method for modloading
