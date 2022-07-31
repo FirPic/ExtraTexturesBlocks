@@ -31,7 +31,7 @@ public class AncientStone {
             )
     );
 
-    public static final RegistryObject<Block> ANCIENT_STONE_BRAY = registerBlock("ancient_stone_bray",
+    public static final RegistryObject<Block> ANCIENT_STONE_BRAID = registerBlock("ancient_stone_braid",
             ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class AncientStone {
             )
     );
 
-    public static final RegistryObject<Block> ANCIENT_STONE_JELLYBEAN = registerBlock("ancient_stone_jellybean",
+    public static final RegistryObject<Block> ANCIENT_STONE_JELLYBEAN = registerBlock("ancient_stone_jellybean.json",
             ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
                     .harvestLevel(2)
                     .harvestTool(ToolType.PICKAXE)
@@ -320,10 +320,6 @@ public class AncientStone {
                     .hardnessAndResistance(5f)
             )
     );
-
-
-
-
 
 
 

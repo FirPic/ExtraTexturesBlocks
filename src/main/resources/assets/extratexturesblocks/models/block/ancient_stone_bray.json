@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube",
-  "textures": {
-    "all": "extratexturesblocks:block/ancient_stone/bray"
-  }
-}
