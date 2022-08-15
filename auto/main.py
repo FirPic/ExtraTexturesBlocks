@@ -2,7 +2,7 @@
 
 def json_blockstates_model_loot_tables():
 
-    textures_folder = "andesite"
+    textures_folder = "arcane_stone"
     prefix_of_block_and_file = textures_folder+"_"
     list_of_blocks = ["array", "braid", "chaotic_bricks", "chaotic_medium", "chaotic_small", "circular", "cracked", "cracked_bricks", "cuts", "dent", "encased_bricks", "french_one", "french_two", "jellybean", "layers", "mosaic", "ornate", "panel", "pillar", "prism", "raw", "road", "slanted", "small_bricks", "soft_bricks", "solid_bricks", "tiles_large", "tiles_medium", "tiles_small", "triple_bricks", "twisted", "weaver", "zag"]
 
@@ -35,5 +35,8 @@ def json_blockstates_model_loot_tables():
         file_data_loot_tables.close()
 
 
+
+
 print('start etb generator json file to blockstates, model of block and item, loot tables')
 json_blockstates_model_loot_tables()
+print('finish etb generator json file to blockstates, model of block and item, loot tables')

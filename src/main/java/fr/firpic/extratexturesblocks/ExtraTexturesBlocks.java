@@ -2,6 +2,7 @@ package fr.firpic.extratexturesblocks;
 
 import fr.firpic.extratexturesblocks.blocks.AncientStone;
 import fr.firpic.extratexturesblocks.blocks.Andesite;
+import fr.firpic.extratexturesblocks.blocks.ArcaneStone;
 import fr.firpic.extratexturesblocks.items.EtbItemsRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -36,7 +37,7 @@ public class ExtraTexturesBlocks {
 
         AncientStone.register(eventBus);
         Andesite.register(eventBus);
-
+        ArcaneStone.register(eventBus);
 
 
         EtbItemsRegistry.register(eventBus);
