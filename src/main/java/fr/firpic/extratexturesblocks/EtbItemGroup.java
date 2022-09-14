@@ -33,4 +33,52 @@ public class EtbItemGroup {
             return new ItemStack(EtbItemsRegistry.ARRAY.get());
         }
     };
+    public static final ItemGroup BricksGroup = new ItemGroup("Bricks") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
+    public static final ItemGroup CertusGroup = new ItemGroup("Certus") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
+    public static final ItemGroup CharcoalGroup = new ItemGroup("CharCoal") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
+    public static final ItemGroup CoalGroup = new ItemGroup("Coal") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
+    public static final ItemGroup CoalCokeGroup = new ItemGroup("CoalCoke") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
+    public static final ItemGroup CobblestoneGroup = new ItemGroup("Cobblestone") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
+    public static final ItemGroup DiabaseGroup = new ItemGroup("Diabase") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
+    public static final ItemGroup DioriteGroup = new ItemGroup("Diorite") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
 }

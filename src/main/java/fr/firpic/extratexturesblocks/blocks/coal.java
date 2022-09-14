@@ -21,7 +21,7 @@ public class AncientStone {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> BRICKS_ARRAY= registerBlock("bricks_array",
+    public static final RegistryObject<Block> COAL_ARRAY= registerBlock("coal_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_BRAID= registerBlock("bricks_braid",
+    public static final RegistryObject<Block> COAL_BRAID= registerBlock("coal_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CHAOTIC_BRICKS= registerBlock("bricks_chaotic_bricks",
+    public static final RegistryObject<Block> COAL_CHAOTIC_BRICKS= registerBlock("coal_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CHAOTIC_MEDIUM= registerBlock("bricks_chaotic_medium",
+    public static final RegistryObject<Block> COAL_CHAOTIC_MEDIUM= registerBlock("coal_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CHAOTIC_SMALL= registerBlock("bricks_chaotic_small",
+    public static final RegistryObject<Block> COAL_CHAOTIC_SMALL= registerBlock("coal_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CIRCULAR= registerBlock("bricks_circular",
+    public static final RegistryObject<Block> COAL_CIRCULAR= registerBlock("coal_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CRACKED= registerBlock("bricks_cracked",
+    public static final RegistryObject<Block> COAL_CRACKED= registerBlock("coal_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CRACKED_BRICKS= registerBlock("bricks_cracked_bricks",
+    public static final RegistryObject<Block> COAL_CRACKED_BRICKS= registerBlock("coal_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CUTS= registerBlock("bricks_cuts",
+    public static final RegistryObject<Block> COAL_CUTS= registerBlock("coal_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_DENT= registerBlock("bricks_dent",
+    public static final RegistryObject<Block> COAL_DENT= registerBlock("coal_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ENCASED_BRICKS= registerBlock("bricks_encased_bricks",
+    public static final RegistryObject<Block> COAL_ENCASED_BRICKS= registerBlock("coal_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_FRENCH_ONE= registerBlock("bricks_french_one",
+    public static final RegistryObject<Block> COAL_FRENCH_ONE= registerBlock("coal_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_FRENCH_TWO= registerBlock("bricks_french_two",
+    public static final RegistryObject<Block> COAL_FRENCH_TWO= registerBlock("coal_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_JELLYBEAN= registerBlock("bricks_jellybean",
+    public static final RegistryObject<Block> COAL_JELLYBEAN= registerBlock("coal_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_LAYERS= registerBlock("bricks_layers",
+    public static final RegistryObject<Block> COAL_LAYERS= registerBlock("coal_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_MOSAIC= registerBlock("bricks_mosaic",
+    public static final RegistryObject<Block> COAL_MOSAIC= registerBlock("coal_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ORNATE= registerBlock("bricks_ornate",
+    public static final RegistryObject<Block> COAL_ORNATE= registerBlock("coal_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_PANEL= registerBlock("bricks_panel",
+    public static final RegistryObject<Block> COAL_PANEL= registerBlock("coal_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_PILLAR= registerBlock("bricks_pillar",
+    public static final RegistryObject<Block> COAL_PILLAR= registerBlock("coal_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_PRISM= registerBlock("bricks_prism",
+    public static final RegistryObject<Block> COAL_PRISM= registerBlock("coal_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_RAW= registerBlock("bricks_raw",
+    public static final RegistryObject<Block> COAL_RAW= registerBlock("coal_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ROAD= registerBlock("bricks_road",
+    public static final RegistryObject<Block> COAL_ROAD= registerBlock("coal_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SLANTED= registerBlock("bricks_slanted",
+    public static final RegistryObject<Block> COAL_SLANTED= registerBlock("coal_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SMALL_BRICKS= registerBlock("bricks_small_bricks",
+    public static final RegistryObject<Block> COAL_SMALL_BRICKS= registerBlock("coal_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SOFT_BRICKS= registerBlock("bricks_soft_bricks",
+    public static final RegistryObject<Block> COAL_SOFT_BRICKS= registerBlock("coal_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SOLID_BRICKS= registerBlock("bricks_solid_bricks",
+    public static final RegistryObject<Block> COAL_SOLID_BRICKS= registerBlock("coal_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TILES_LARGE= registerBlock("bricks_tiles_large",
+    public static final RegistryObject<Block> COAL_TILES_LARGE= registerBlock("coal_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TILES_MEDIUM= registerBlock("bricks_tiles_medium",
+    public static final RegistryObject<Block> COAL_TILES_MEDIUM= registerBlock("coal_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TILES_SMALL= registerBlock("bricks_tiles_small",
+    public static final RegistryObject<Block> COAL_TILES_SMALL= registerBlock("coal_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TRIPLE_BRICKS= registerBlock("bricks_triple_bricks",
+    public static final RegistryObject<Block> COAL_TRIPLE_BRICKS= registerBlock("coal_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TWISTED= registerBlock("bricks_twisted",
+    public static final RegistryObject<Block> COAL_TWISTED= registerBlock("coal_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_WEAVER= registerBlock("bricks_weaver",
+    public static final RegistryObject<Block> COAL_WEAVER= registerBlock("coal_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ZAG= registerBlock("bricks_zag",
+    public static final RegistryObject<Block> COAL_ZAG= registerBlock("coal_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -295,7 +295,7 @@ public class AncientStone {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         EtbItemsRegistry.ITEMS.register(name, ()->new BlockItem(block.get(),
-                new Item.Properties().group(EtbItemGroup.BricksGroup)));
+                new Item.Properties().group(EtbItemGroup.CoalGroup)));
     }
 
 

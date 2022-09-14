@@ -21,7 +21,7 @@ public class AncientStone {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> BRICKS_ARRAY= registerBlock("bricks_array",
+    public static final RegistryObject<Block> DIORITE_ARRAY= registerBlock("diorite_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_BRAID= registerBlock("bricks_braid",
+    public static final RegistryObject<Block> DIORITE_BRAID= registerBlock("diorite_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CHAOTIC_BRICKS= registerBlock("bricks_chaotic_bricks",
+    public static final RegistryObject<Block> DIORITE_CHAOTIC_BRICKS= registerBlock("diorite_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CHAOTIC_MEDIUM= registerBlock("bricks_chaotic_medium",
+    public static final RegistryObject<Block> DIORITE_CHAOTIC_MEDIUM= registerBlock("diorite_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CHAOTIC_SMALL= registerBlock("bricks_chaotic_small",
+    public static final RegistryObject<Block> DIORITE_CHAOTIC_SMALL= registerBlock("diorite_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CIRCULAR= registerBlock("bricks_circular",
+    public static final RegistryObject<Block> DIORITE_CIRCULAR= registerBlock("diorite_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CRACKED= registerBlock("bricks_cracked",
+    public static final RegistryObject<Block> DIORITE_CRACKED= registerBlock("diorite_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CRACKED_BRICKS= registerBlock("bricks_cracked_bricks",
+    public static final RegistryObject<Block> DIORITE_CRACKED_BRICKS= registerBlock("diorite_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_CUTS= registerBlock("bricks_cuts",
+    public static final RegistryObject<Block> DIORITE_CUTS= registerBlock("diorite_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_DENT= registerBlock("bricks_dent",
+    public static final RegistryObject<Block> DIORITE_DENT= registerBlock("diorite_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ENCASED_BRICKS= registerBlock("bricks_encased_bricks",
+    public static final RegistryObject<Block> DIORITE_ENCASED_BRICKS= registerBlock("diorite_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_FRENCH_ONE= registerBlock("bricks_french_one",
+    public static final RegistryObject<Block> DIORITE_FRENCH_ONE= registerBlock("diorite_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_FRENCH_TWO= registerBlock("bricks_french_two",
+    public static final RegistryObject<Block> DIORITE_FRENCH_TWO= registerBlock("diorite_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_JELLYBEAN= registerBlock("bricks_jellybean",
+    public static final RegistryObject<Block> DIORITE_JELLYBEAN= registerBlock("diorite_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_LAYERS= registerBlock("bricks_layers",
+    public static final RegistryObject<Block> DIORITE_LAYERS= registerBlock("diorite_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_MOSAIC= registerBlock("bricks_mosaic",
+    public static final RegistryObject<Block> DIORITE_MOSAIC= registerBlock("diorite_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ORNATE= registerBlock("bricks_ornate",
+    public static final RegistryObject<Block> DIORITE_ORNATE= registerBlock("diorite_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_PANEL= registerBlock("bricks_panel",
+    public static final RegistryObject<Block> DIORITE_PANEL= registerBlock("diorite_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_PILLAR= registerBlock("bricks_pillar",
+    public static final RegistryObject<Block> DIORITE_PILLAR= registerBlock("diorite_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_PRISM= registerBlock("bricks_prism",
+    public static final RegistryObject<Block> DIORITE_PRISM= registerBlock("diorite_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_RAW= registerBlock("bricks_raw",
+    public static final RegistryObject<Block> DIORITE_RAW= registerBlock("diorite_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ROAD= registerBlock("bricks_road",
+    public static final RegistryObject<Block> DIORITE_ROAD= registerBlock("diorite_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SLANTED= registerBlock("bricks_slanted",
+    public static final RegistryObject<Block> DIORITE_SLANTED= registerBlock("diorite_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SMALL_BRICKS= registerBlock("bricks_small_bricks",
+    public static final RegistryObject<Block> DIORITE_SMALL_BRICKS= registerBlock("diorite_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SOFT_BRICKS= registerBlock("bricks_soft_bricks",
+    public static final RegistryObject<Block> DIORITE_SOFT_BRICKS= registerBlock("diorite_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_SOLID_BRICKS= registerBlock("bricks_solid_bricks",
+    public static final RegistryObject<Block> DIORITE_SOLID_BRICKS= registerBlock("diorite_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TILES_LARGE= registerBlock("bricks_tiles_large",
+    public static final RegistryObject<Block> DIORITE_TILES_LARGE= registerBlock("diorite_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TILES_MEDIUM= registerBlock("bricks_tiles_medium",
+    public static final RegistryObject<Block> DIORITE_TILES_MEDIUM= registerBlock("diorite_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TILES_SMALL= registerBlock("bricks_tiles_small",
+    public static final RegistryObject<Block> DIORITE_TILES_SMALL= registerBlock("diorite_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TRIPLE_BRICKS= registerBlock("bricks_triple_bricks",
+    public static final RegistryObject<Block> DIORITE_TRIPLE_BRICKS= registerBlock("diorite_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_TWISTED= registerBlock("bricks_twisted",
+    public static final RegistryObject<Block> DIORITE_TWISTED= registerBlock("diorite_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_WEAVER= registerBlock("bricks_weaver",
+    public static final RegistryObject<Block> DIORITE_WEAVER= registerBlock("diorite_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> BRICKS_ZAG= registerBlock("bricks_zag",
+    public static final RegistryObject<Block> DIORITE_ZAG= registerBlock("diorite_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -295,7 +295,7 @@ public class AncientStone {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         EtbItemsRegistry.ITEMS.register(name, ()->new BlockItem(block.get(),
-                new Item.Properties().group(EtbItemGroup.BricksGroup)));
+                new Item.Properties().group(EtbItemGroup.DioriteGroup)));
     }
 
 
