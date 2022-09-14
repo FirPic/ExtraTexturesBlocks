@@ -1,6 +1,7 @@
 {
-    "block.extratexturesblock.ancient_stone_array": "Ancient Stone Array",
     "itemGroup.extratexturesblocks": "Extra Textures Blocks",
+
+
     "block.extratexturesblocks.anciente_stone_array": "Anciente Stone Array",
     "block.extratexturesblocks.anciente_stone_braid": "Anciente Stone Braid",
     "block.extratexturesblocks.anciente_stone_chaotic_bricks": "Anciente Stone Chaotic Bricks",
@@ -34,6 +35,7 @@
     "block.extratexturesblocks.anciente_stone_twisted": "Anciente Stone Twisted",
     "block.extratexturesblocks.anciente_stone_weaver": "Anciente Stone Weaver",
     "block.extratexturesblocks.anciente_stone_zag": "Anciente Stone Zag",
+
     "block.extratexturesblocks.andesite_array": "Andesite Array",
     "block.extratexturesblocks.andesite_braid": "Andesite Braid",
     "block.extratexturesblocks.andesite_chaotic_bricks": "Andesite Chaotic Bricks",
@@ -67,6 +69,7 @@
     "block.extratexturesblocks.andesite_twisted": "Andesite Twisted",
     "block.extratexturesblocks.andesite_weaver": "Andesite Weaver",
     "block.extratexturesblocks.andesite_zag": "Andesite Zag",
+
     "block.extratexturesblocks.arcane_stone_array": "Arcane Stone Array",
     "block.extratexturesblocks.arcane_stone_braid": "Arcane Stone Braid",
     "block.extratexturesblocks.arcane_stone_chaotic_bricks": "Arcane Stone Chaotic Bricks",
@@ -100,6 +103,7 @@
     "block.extratexturesblocks.arcane_stone_twisted": "Arcane Stone Twisted",
     "block.extratexturesblocks.arcane_stone_weaver": "Arcane Stone Weaver",
     "block.extratexturesblocks.arcane_stone_zag": "Arcane Stone Zag",
+
     "block.extratexturesblocks.bricks_array": "Bricks Array",
     "block.extratexturesblocks.bricks_braid": "Bricks Braid",
     "block.extratexturesblocks.bricks_chaotic_bricks": "Bricks Chaotic Bricks",
@@ -133,6 +137,7 @@
     "block.extratexturesblocks.bricks_twisted": "Bricks Twisted",
     "block.extratexturesblocks.bricks_weaver": "Bricks Weaver",
     "block.extratexturesblocks.bricks_zag": "Bricks Zag",
+
     "block.extratexturesblocks.certus_array": "Certus Array",
     "block.extratexturesblocks.certus_braid": "Certus Braid",
     "block.extratexturesblocks.certus_chaotic_bricks": "Certus Chaotic Bricks",
@@ -166,6 +171,7 @@
     "block.extratexturesblocks.certus_twisted": "Certus Twisted",
     "block.extratexturesblocks.certus_weaver": "Certus Weaver",
     "block.extratexturesblocks.certus_zag": "Certus Zag",
+
     "block.extratexturesblocks.charcoal_array": "Charcoal Array",
     "block.extratexturesblocks.charcoal_braid": "Charcoal Braid",
     "block.extratexturesblocks.charcoal_chaotic_bricks": "Charcoal Chaotic Bricks",
@@ -199,6 +205,7 @@
     "block.extratexturesblocks.charcoal_twisted": "Charcoal Twisted",
     "block.extratexturesblocks.charcoal_weaver": "Charcoal Weaver",
     "block.extratexturesblocks.charcoal_zag": "Charcoal Zag",
+
     "block.extratexturesblocks.coal_array": "Coal Array",
     "block.extratexturesblocks.coal_braid": "Coal Braid",
     "block.extratexturesblocks.coal_chaotic_bricks": "Coal Chaotic Bricks",
@@ -232,6 +239,7 @@
     "block.extratexturesblocks.coal_twisted": "Coal Twisted",
     "block.extratexturesblocks.coal_weaver": "Coal Weaver",
     "block.extratexturesblocks.coal_zag": "Coal Zag",
+    
     "block.extratexturesblocks.coalcoke_array": "Coalcoke Array",
     "block.extratexturesblocks.coalcoke_braid": "Coalcoke Braid",
     "block.extratexturesblocks.coalcoke_chaotic_bricks": "Coalcoke Chaotic Bricks",
@@ -265,6 +273,7 @@
     "block.extratexturesblocks.coalcoke_twisted": "Coalcoke Twisted",
     "block.extratexturesblocks.coalcoke_weaver": "Coalcoke Weaver",
     "block.extratexturesblocks.coalcoke_zag": "Coalcoke Zag",
+
     "block.extratexturesblocks.cobblestone_array": "Cobblestone Array",
     "block.extratexturesblocks.cobblestone_braid": "Cobblestone Braid",
     "block.extratexturesblocks.cobblestone_chaotic_bricks": "Cobblestone Chaotic Bricks",
@@ -298,6 +307,7 @@
     "block.extratexturesblocks.cobblestone_twisted": "Cobblestone Twisted",
     "block.extratexturesblocks.cobblestone_weaver": "Cobblestone Weaver",
     "block.extratexturesblocks.cobblestone_zag": "Cobblestone Zag",
+
     "block.extratexturesblocks.diabase_array": "Diabase Array",
     "block.extratexturesblocks.diabase_braid": "Diabase Braid",
     "block.extratexturesblocks.diabase_chaotic_bricks": "Diabase Chaotic Bricks",
@@ -331,6 +341,7 @@
     "block.extratexturesblocks.diabase_twisted": "Diabase Twisted",
     "block.extratexturesblocks.diabase_weaver": "Diabase Weaver",
     "block.extratexturesblocks.diabase_zag": "Diabase Zag",
+
     "block.extratexturesblocks.diorite_array": "Diorite Array",
     "block.extratexturesblocks.diorite_braid": "Diorite Braid",
     "block.extratexturesblocks.diorite_chaotic_bricks": "Diorite Chaotic Bricks",
