@@ -1,6 +1,12 @@
 import json
 
 
+nf=0
+
+def fileNumber():
+    global nf
+    nf=nf+3
+
 def jsonWrite(file, content):
     print('\n\ncreate file of block : ' + file)
     f=open(file, "w+")
@@ -8,6 +14,7 @@ def jsonWrite(file, content):
     f.write(content)
     print('close files of block : ' + file)
     f.close()
+    fileNumber()
 
 
 def json_blockstates_model_loot_tables():
@@ -52,7 +59,86 @@ def json_block_name(blockName):
     with open("../src/main/resources/assets/extratexturesblocks/lang/en_us.json", "w") as f:
         json.dump(json1, fp=f, indent=4)
 
+Blocks=""
+def javaClassBlock(block):
+    global Blocks
+
+    blockCode ='''public static final RegistryObject<Block> '''+block.upper()+'''= registerBlock("',block ,'",
+        ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
+            .harvestLevel(2)
+            .harvestTool(ToolType.PICKAXE)
+            .setRequiresTool()
+            .hardnessAndResistance(5f)
+    ));
+
+    '''
+    blockCode= ''.join(blockCode)
+    print(type(blockCode),type(Blocks))
+
+
+    print(blockCode)
+    Blocks+=blockCode
+
+
+
+def javaClass(name):
+    javaFile=open("../src/main/java/fr/firpic/extratexturesblocks/blocks/"+name+".java", "w+")
+    code='''package fr.firpic.extratexturesblocks.blocks;
+
+import fr.firpic.extratexturesblocks.EtbItemGroup;
+import fr.firpic.extratexturesblocks.Reference;
+import fr.firpic.extratexturesblocks.items.EtbItemsRegistry;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
+import net.minecraftforge.common.ToolType;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+
+import java.util.function.Supplier;
+
+public class AncientStone {
+
+    public static final DeferredRegister<Block> BLOCKS =
+            DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
+
+    ''', Blocks, '''
+
+    public static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
+        RegistryObject<T> toReturn = BLOCKS.register(name, block);
+        registerBlockItem(name, toReturn);
+        return toReturn;
+    }
+
+    private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
+        EtbItemsRegistry.ITEMS.register(name, ()->new BlockItem(block.get(),
+                new Item.Properties().group(EtbItemGroup.AncientStoneGroup)));
+    }
+
+
+
+    public static void register(IEventBus eventBus){BLOCKS.register(eventBus);}
+
+
+}'''
+
+    javaFile.write(''.join(code))
+    javaFile.close()
+
+
 
 print('start etb generator json file to blockstates, model of block and item, loot tables\n')
-json_blockstates_model_loot_tables()
+#json_blockstates_model_loot_tables()
 print('\nfinish etb generator json file to blockstates, model of block and item, loot tables')
+
+javaClassBlock("cc_0")
+javaClassBlock("cc_1")
+javaClassBlock("cc_2")
+javaClassBlock("cc_3")
+javaClassBlock("cc_4")
+
+javaClass("cc")
