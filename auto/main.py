@@ -63,7 +63,7 @@ Blocks=""
 def javaClassBlock(block):
     global Blocks
 
-    blockCode ='''public static final RegistryObject<Block> '''+block.upper()+'''= registerBlock("',block ,'",
+    blockCode ='''public static final RegistryObject<Block> '''+block.upper()+'''= registerBlock("'''+block +'''",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,6 +133,6 @@ public class AncientStone {
 
 print('start etb generator json file to blockstates, model of block and item, loot tables\n')
 json_blockstates_model_loot_tables()
-print('numbre de fichier creer : 'nf)
+print('numbre de fichier creer : ',nf)
 
 print('\nfinish etb generator json file to blockstates, model of block and item, loot tables')
