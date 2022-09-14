@@ -39,9 +39,9 @@ def json_blockstates_model_loot_tables():
         jsonWrite("..\\src\\main\\resources\\data\\extratexturesblocks\\loot_tables\\blocks\\"+file ,'{"type": "minecraft:block","pools": [{"rolls": 1,"entries":[{"type": "minecraft:item","name": "extratexturesblocks:'+block_name+'"}]}]}')
 
         json_block_name(block_name)
+        javaClassBlock(block_name)
 
-        
-
+    javaClass(textures_folder)
 
 
 def json_block_name(blockName):
@@ -132,13 +132,7 @@ public class AncientStone {
 
 
 print('start etb generator json file to blockstates, model of block and item, loot tables\n')
-#json_blockstates_model_loot_tables()
+json_blockstates_model_loot_tables()
+print('numbre de fichier creer : 'nf)
+
 print('\nfinish etb generator json file to blockstates, model of block and item, loot tables')
-
-javaClassBlock("cc_0")
-javaClassBlock("cc_1")
-javaClassBlock("cc_2")
-javaClassBlock("cc_3")
-javaClassBlock("cc_4")
-
-javaClass("cc")
