@@ -2,7 +2,7 @@ import json
 
 
 def jsonWrite(file, content):
-    print('create file of block : ' + file)
+    print('\n\ncreate file of block : ' + file)
     f=open(file, "w+")
     print('write file of block : ' + file)
     f.write(content)
@@ -53,6 +53,6 @@ def json_block_name(blockName):
         json.dump(json1, fp=f, indent=4)
 
 
-print('start etb generator json file to blockstates, model of block and item, loot tables')
+print('start etb generator json file to blockstates, model of block and item, loot tables\n')
 json_blockstates_model_loot_tables()
-print('finish etb generator json file to blockstates, model of block and item, loot tables')
+print('\nfinish etb generator json file to blockstates, model of block and item, loot tables')
