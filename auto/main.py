@@ -1,5 +1,19 @@
 import json
 
+textures_folder=""
+
+def itemGroup(name):
+    group='''
+    public static final ItemGroup ''',name.replace(" ","").title(),'''Group = new ItemGroup("''',name.title(),'''") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    }; '''
+    with open("itemGroup.tmp", "w+") as ig:
+        ig.write("".join(group))
+        ig.close()
+
 
 nf=0
 
@@ -18,7 +32,7 @@ def jsonWrite(file, content):
 
 
 def json_blockstates_model_loot_tables():
-
+    global textures_folder
     textures_folder = input("prefix of blocks : ")
     prefix_of_block_and_file = textures_folder+"_"
     list_of_blocks = ["array", "braid", "chaotic_bricks", "chaotic_medium", "chaotic_small", "circular", "cracked", "cracked_bricks", "cuts", "dent", "encased_bricks", "french_one", "french_two", "jellybean", "layers", "mosaic", "ornate", "panel", "pillar", "prism", "raw", "road", "slanted", "small_bricks", "soft_bricks", "solid_bricks", "tiles_large", "tiles_medium", "tiles_small", "triple_bricks", "twisted", "weaver", "zag"]
@@ -42,6 +56,7 @@ def json_blockstates_model_loot_tables():
         javaClassBlock(block_name)
 
     javaClass(textures_folder)
+    itemGroup(prefix_of_block_and_file.replace("_", " "))
 
 
 def json_block_name(blockName):
@@ -81,7 +96,7 @@ def javaClassBlock(block):
 
 
 def javaClass(name):
-    javaFile=open("../src/main/java/fr/firpic/extratexturesblocks/blocks/"+name+".java", "w+")
+    javaFile=open("../src/main/java/fr/firpic/extratexturesblocks/blocks/"+name.title()+".java", "w+")
     code='''package fr.firpic.extratexturesblocks.blocks;
 
 import fr.firpic.extratexturesblocks.EtbItemGroup;
@@ -100,7 +115,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class AncientStone {
+public class ''',name.title().replace("_",""),''' {
 
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
@@ -133,5 +148,6 @@ public class AncientStone {
 print('start etb generator json file to blockstates, model of block and item, loot tables\n')
 json_blockstates_model_loot_tables()
 print('numbre de fichier creer : ',nf)
+print(textures_folder)
 
 print('\nfinish etb generator json file to blockstates, model of block and item, loot tables')

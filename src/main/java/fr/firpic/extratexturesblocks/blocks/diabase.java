@@ -16,12 +16,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class AncientStone {
+public class Diabase {
 
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> DIABASE_ARRAY= registerBlock("diabase_array",
+    public static final RegistryObject<Block> DIABASE_ARRAY= registerBlock("Diabase_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_BRAID= registerBlock("diabase_braid",
+    public static final RegistryObject<Block> DIABASE_BRAID= registerBlock("Diabase_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_CHAOTIC_BRICKS= registerBlock("diabase_chaotic_bricks",
+    public static final RegistryObject<Block> DIABASE_CHAOTIC_BRICKS= registerBlock("Diabase_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_CHAOTIC_MEDIUM= registerBlock("diabase_chaotic_medium",
+    public static final RegistryObject<Block> DIABASE_CHAOTIC_MEDIUM= registerBlock("Diabase_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_CHAOTIC_SMALL= registerBlock("diabase_chaotic_small",
+    public static final RegistryObject<Block> DIABASE_CHAOTIC_SMALL= registerBlock("Diabase_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_CIRCULAR= registerBlock("diabase_circular",
+    public static final RegistryObject<Block> DIABASE_CIRCULAR= registerBlock("Diabase_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_CRACKED= registerBlock("diabase_cracked",
+    public static final RegistryObject<Block> DIABASE_CRACKED= registerBlock("Diabase_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_CRACKED_BRICKS= registerBlock("diabase_cracked_bricks",
+    public static final RegistryObject<Block> DIABASE_CRACKED_BRICKS= registerBlock("Diabase_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_CUTS= registerBlock("diabase_cuts",
+    public static final RegistryObject<Block> DIABASE_CUTS= registerBlock("Diabase_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_DENT= registerBlock("diabase_dent",
+    public static final RegistryObject<Block> DIABASE_DENT= registerBlock("Diabase_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_ENCASED_BRICKS= registerBlock("diabase_encased_bricks",
+    public static final RegistryObject<Block> DIABASE_ENCASED_BRICKS= registerBlock("Diabase_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_FRENCH_ONE= registerBlock("diabase_french_one",
+    public static final RegistryObject<Block> DIABASE_FRENCH_ONE= registerBlock("Diabase_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_FRENCH_TWO= registerBlock("diabase_french_two",
+    public static final RegistryObject<Block> DIABASE_FRENCH_TWO= registerBlock("Diabase_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_JELLYBEAN= registerBlock("diabase_jellybean",
+    public static final RegistryObject<Block> DIABASE_JELLYBEAN= registerBlock("Diabase_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_LAYERS= registerBlock("diabase_layers",
+    public static final RegistryObject<Block> DIABASE_LAYERS= registerBlock("Diabase_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_MOSAIC= registerBlock("diabase_mosaic",
+    public static final RegistryObject<Block> DIABASE_MOSAIC= registerBlock("Diabase_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_ORNATE= registerBlock("diabase_ornate",
+    public static final RegistryObject<Block> DIABASE_ORNATE= registerBlock("Diabase_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_PANEL= registerBlock("diabase_panel",
+    public static final RegistryObject<Block> DIABASE_PANEL= registerBlock("Diabase_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_PILLAR= registerBlock("diabase_pillar",
+    public static final RegistryObject<Block> DIABASE_PILLAR= registerBlock("Diabase_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_PRISM= registerBlock("diabase_prism",
+    public static final RegistryObject<Block> DIABASE_PRISM= registerBlock("Diabase_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_RAW= registerBlock("diabase_raw",
+    public static final RegistryObject<Block> DIABASE_RAW= registerBlock("Diabase_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_ROAD= registerBlock("diabase_road",
+    public static final RegistryObject<Block> DIABASE_ROAD= registerBlock("Diabase_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_SLANTED= registerBlock("diabase_slanted",
+    public static final RegistryObject<Block> DIABASE_SLANTED= registerBlock("Diabase_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_SMALL_BRICKS= registerBlock("diabase_small_bricks",
+    public static final RegistryObject<Block> DIABASE_SMALL_BRICKS= registerBlock("Diabase_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_SOFT_BRICKS= registerBlock("diabase_soft_bricks",
+    public static final RegistryObject<Block> DIABASE_SOFT_BRICKS= registerBlock("Diabase_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_SOLID_BRICKS= registerBlock("diabase_solid_bricks",
+    public static final RegistryObject<Block> DIABASE_SOLID_BRICKS= registerBlock("Diabase_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_TILES_LARGE= registerBlock("diabase_tiles_large",
+    public static final RegistryObject<Block> DIABASE_TILES_LARGE= registerBlock("Diabase_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_TILES_MEDIUM= registerBlock("diabase_tiles_medium",
+    public static final RegistryObject<Block> DIABASE_TILES_MEDIUM= registerBlock("Diabase_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_TILES_SMALL= registerBlock("diabase_tiles_small",
+    public static final RegistryObject<Block> DIABASE_TILES_SMALL= registerBlock("Diabase_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_TRIPLE_BRICKS= registerBlock("diabase_triple_bricks",
+    public static final RegistryObject<Block> DIABASE_TRIPLE_BRICKS= registerBlock("Diabase_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_TWISTED= registerBlock("diabase_twisted",
+    public static final RegistryObject<Block> DIABASE_TWISTED= registerBlock("Diabase_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_WEAVER= registerBlock("diabase_weaver",
+    public static final RegistryObject<Block> DIABASE_WEAVER= registerBlock("Diabase_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> DIABASE_ZAG= registerBlock("diabase_zag",
+    public static final RegistryObject<Block> DIABASE_ZAG= registerBlock("Diabase_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

@@ -16,12 +16,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class AncientStone {
+public class Cobblestone {
 
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> COBBLESTONE_ARRAY= registerBlock("cobblestone_array",
+    public static final RegistryObject<Block> COBBLESTONE_ARRAY= registerBlock("Cobblestone_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_BRAID= registerBlock("cobblestone_braid",
+    public static final RegistryObject<Block> COBBLESTONE_BRAID= registerBlock("Cobblestone_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_CHAOTIC_BRICKS= registerBlock("cobblestone_chaotic_bricks",
+    public static final RegistryObject<Block> COBBLESTONE_CHAOTIC_BRICKS= registerBlock("Cobblestone_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_CHAOTIC_MEDIUM= registerBlock("cobblestone_chaotic_medium",
+    public static final RegistryObject<Block> COBBLESTONE_CHAOTIC_MEDIUM= registerBlock("Cobblestone_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_CHAOTIC_SMALL= registerBlock("cobblestone_chaotic_small",
+    public static final RegistryObject<Block> COBBLESTONE_CHAOTIC_SMALL= registerBlock("Cobblestone_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_CIRCULAR= registerBlock("cobblestone_circular",
+    public static final RegistryObject<Block> COBBLESTONE_CIRCULAR= registerBlock("Cobblestone_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_CRACKED= registerBlock("cobblestone_cracked",
+    public static final RegistryObject<Block> COBBLESTONE_CRACKED= registerBlock("Cobblestone_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_CRACKED_BRICKS= registerBlock("cobblestone_cracked_bricks",
+    public static final RegistryObject<Block> COBBLESTONE_CRACKED_BRICKS= registerBlock("Cobblestone_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_CUTS= registerBlock("cobblestone_cuts",
+    public static final RegistryObject<Block> COBBLESTONE_CUTS= registerBlock("Cobblestone_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_DENT= registerBlock("cobblestone_dent",
+    public static final RegistryObject<Block> COBBLESTONE_DENT= registerBlock("Cobblestone_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_ENCASED_BRICKS= registerBlock("cobblestone_encased_bricks",
+    public static final RegistryObject<Block> COBBLESTONE_ENCASED_BRICKS= registerBlock("Cobblestone_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_FRENCH_ONE= registerBlock("cobblestone_french_one",
+    public static final RegistryObject<Block> COBBLESTONE_FRENCH_ONE= registerBlock("Cobblestone_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_FRENCH_TWO= registerBlock("cobblestone_french_two",
+    public static final RegistryObject<Block> COBBLESTONE_FRENCH_TWO= registerBlock("Cobblestone_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_JELLYBEAN= registerBlock("cobblestone_jellybean",
+    public static final RegistryObject<Block> COBBLESTONE_JELLYBEAN= registerBlock("Cobblestone_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_LAYERS= registerBlock("cobblestone_layers",
+    public static final RegistryObject<Block> COBBLESTONE_LAYERS= registerBlock("Cobblestone_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_MOSAIC= registerBlock("cobblestone_mosaic",
+    public static final RegistryObject<Block> COBBLESTONE_MOSAIC= registerBlock("Cobblestone_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_ORNATE= registerBlock("cobblestone_ornate",
+    public static final RegistryObject<Block> COBBLESTONE_ORNATE= registerBlock("Cobblestone_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_PANEL= registerBlock("cobblestone_panel",
+    public static final RegistryObject<Block> COBBLESTONE_PANEL= registerBlock("Cobblestone_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_PILLAR= registerBlock("cobblestone_pillar",
+    public static final RegistryObject<Block> COBBLESTONE_PILLAR= registerBlock("Cobblestone_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_PRISM= registerBlock("cobblestone_prism",
+    public static final RegistryObject<Block> COBBLESTONE_PRISM= registerBlock("Cobblestone_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_RAW= registerBlock("cobblestone_raw",
+    public static final RegistryObject<Block> COBBLESTONE_RAW= registerBlock("Cobblestone_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_ROAD= registerBlock("cobblestone_road",
+    public static final RegistryObject<Block> COBBLESTONE_ROAD= registerBlock("Cobblestone_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_SLANTED= registerBlock("cobblestone_slanted",
+    public static final RegistryObject<Block> COBBLESTONE_SLANTED= registerBlock("Cobblestone_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_SMALL_BRICKS= registerBlock("cobblestone_small_bricks",
+    public static final RegistryObject<Block> COBBLESTONE_SMALL_BRICKS= registerBlock("Cobblestone_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_SOFT_BRICKS= registerBlock("cobblestone_soft_bricks",
+    public static final RegistryObject<Block> COBBLESTONE_SOFT_BRICKS= registerBlock("Cobblestone_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_SOLID_BRICKS= registerBlock("cobblestone_solid_bricks",
+    public static final RegistryObject<Block> COBBLESTONE_SOLID_BRICKS= registerBlock("Cobblestone_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_TILES_LARGE= registerBlock("cobblestone_tiles_large",
+    public static final RegistryObject<Block> COBBLESTONE_TILES_LARGE= registerBlock("Cobblestone_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_TILES_MEDIUM= registerBlock("cobblestone_tiles_medium",
+    public static final RegistryObject<Block> COBBLESTONE_TILES_MEDIUM= registerBlock("Cobblestone_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_TILES_SMALL= registerBlock("cobblestone_tiles_small",
+    public static final RegistryObject<Block> COBBLESTONE_TILES_SMALL= registerBlock("Cobblestone_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_TRIPLE_BRICKS= registerBlock("cobblestone_triple_bricks",
+    public static final RegistryObject<Block> COBBLESTONE_TRIPLE_BRICKS= registerBlock("Cobblestone_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_TWISTED= registerBlock("cobblestone_twisted",
+    public static final RegistryObject<Block> COBBLESTONE_TWISTED= registerBlock("Cobblestone_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_WEAVER= registerBlock("cobblestone_weaver",
+    public static final RegistryObject<Block> COBBLESTONE_WEAVER= registerBlock("Cobblestone_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class AncientStone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COBBLESTONE_ZAG= registerBlock("cobblestone_zag",
+    public static final RegistryObject<Block> COBBLESTONE_ZAG= registerBlock("Cobblestone_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
