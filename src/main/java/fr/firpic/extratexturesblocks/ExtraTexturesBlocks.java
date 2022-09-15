@@ -68,7 +68,7 @@ public class ExtraTexturesBlocks {
         Coal.register(eventBus);
         Coalcoke.register(eventBus);
         Cobblestone.register(eventBus);
-        Diorite.register(eventBus);
+        Diabase.register(eventBus);
         Diorite.register(eventBus);
         Endstone.register(eventBus);
         Fluid.register(eventBus);

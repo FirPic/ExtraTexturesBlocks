@@ -295,7 +295,7 @@ public class RedSandstone {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         EtbItemsRegistry.ITEMS.register(name, ()->new BlockItem(block.get(),
-                new Item.Properties().group(EtbItemGroup.Red_SandstoneGroup)));
+                new Item.Properties().group(EtbItemGroup.RedSandstoneGroup)));
     }
 
 

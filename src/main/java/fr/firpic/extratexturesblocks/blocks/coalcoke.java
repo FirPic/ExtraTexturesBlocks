@@ -295,7 +295,7 @@ public class Coalcoke {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         EtbItemsRegistry.ITEMS.register(name, ()->new BlockItem(block.get(),
-                new Item.Properties().group(EtbItemGroup.CoalcokeGroup)));
+                new Item.Properties().group(EtbItemGroup.CoalCokeGroup)));
     }
 
 

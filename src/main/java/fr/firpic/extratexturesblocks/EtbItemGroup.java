@@ -74,6 +74,12 @@ public class EtbItemGroup {
             return new ItemStack(EtbItemsRegistry.ARRAY.get());
         }
     };
+    public static final ItemGroup DioriteGroup = new ItemGroup("Diorite") {
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(EtbItemsRegistry.ARRAY.get());
+        }
+    };
     public static final ItemGroup EndstoneGroup = new ItemGroup("End Stone") {
         @Override
         public ItemStack createIcon() {
@@ -141,7 +147,7 @@ public class EtbItemGroup {
             return new ItemStack(EtbItemsRegistry.ARRAY.get());
         }
     }; 
-    public static final ItemGroup RedsandstoneGroup = new ItemGroup("Red Sandstone ") {
+    public static final ItemGroup RedSandstoneGroup = new ItemGroup("Red Sandstone ") {
         @Override
         public ItemStack createIcon() {
             return new ItemStack(EtbItemsRegistry.ARRAY.get());
