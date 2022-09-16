@@ -22,12 +22,11 @@ def fileNumber():
     nf=nf+3
 
 def jsonWrite(file, content):
-    print('\n\ncreate file of block : ' + file)
+    print('\n\nstart file : ' + file)
     f=open(file, "w+")
-    print('write file of block : ' + file)
     f.write(content)
-    print('close files of block : ' + file)
     f.close()
+    print('finish file : ' + file)
     fileNumber()
 
 
@@ -78,7 +77,7 @@ Blocks=""
 def javaClassBlock(block):
     global Blocks
 
-    blockCode ='''public static final RegistryObject<Block> '''+block.upper()+'''= registerBlock("'''+block +'''",
+    blockCode ='''public static final RegistryObject<Block> '''+block.upper()+'''= registerBlock("'''+block.lower() +'''",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -88,9 +87,7 @@ def javaClassBlock(block):
 
     '''
     blockCode= ''.join(blockCode)
-
-
-    print(blockCode)
+    print("\ncode of block", block,'has generate')
     Blocks+=blockCode
 
 
@@ -142,7 +139,7 @@ public class ''',name.title().replace("_",""),''' {
 
     javaFile.write(''.join(code))
     javaFile.close()
-
+    print('\nthe class of ',name,'has generate and write')
 
 
 print('start etb generator json file to blockstates, model of block and item, loot tables\n')

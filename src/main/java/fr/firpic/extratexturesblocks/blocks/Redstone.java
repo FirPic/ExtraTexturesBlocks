@@ -21,7 +21,7 @@ public class Redstone {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> REDSTONE_ARRAY= registerBlock("Redstone_array",
+    public static final RegistryObject<Block> REDSTONE_ARRAY= registerBlock("redstone_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_BRAID= registerBlock("Redstone_braid",
+    public static final RegistryObject<Block> REDSTONE_BRAID= registerBlock("redstone_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_CHAOTIC_BRICKS= registerBlock("Redstone_chaotic_bricks",
+    public static final RegistryObject<Block> REDSTONE_CHAOTIC_BRICKS= registerBlock("redstone_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_CHAOTIC_MEDIUM= registerBlock("Redstone_chaotic_medium",
+    public static final RegistryObject<Block> REDSTONE_CHAOTIC_MEDIUM= registerBlock("redstone_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_CHAOTIC_SMALL= registerBlock("Redstone_chaotic_small",
+    public static final RegistryObject<Block> REDSTONE_CHAOTIC_SMALL= registerBlock("redstone_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_CIRCULAR= registerBlock("Redstone_circular",
+    public static final RegistryObject<Block> REDSTONE_CIRCULAR= registerBlock("redstone_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_CRACKED= registerBlock("Redstone_cracked",
+    public static final RegistryObject<Block> REDSTONE_CRACKED= registerBlock("redstone_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_CRACKED_BRICKS= registerBlock("Redstone_cracked_bricks",
+    public static final RegistryObject<Block> REDSTONE_CRACKED_BRICKS= registerBlock("redstone_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_CUTS= registerBlock("Redstone_cuts",
+    public static final RegistryObject<Block> REDSTONE_CUTS= registerBlock("redstone_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_DENT= registerBlock("Redstone_dent",
+    public static final RegistryObject<Block> REDSTONE_DENT= registerBlock("redstone_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_ENCASED_BRICKS= registerBlock("Redstone_encased_bricks",
+    public static final RegistryObject<Block> REDSTONE_ENCASED_BRICKS= registerBlock("redstone_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_FRENCH_ONE= registerBlock("Redstone_french_one",
+    public static final RegistryObject<Block> REDSTONE_FRENCH_ONE= registerBlock("redstone_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_FRENCH_TWO= registerBlock("Redstone_french_two",
+    public static final RegistryObject<Block> REDSTONE_FRENCH_TWO= registerBlock("redstone_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_JELLYBEAN= registerBlock("Redstone_jellybean",
+    public static final RegistryObject<Block> REDSTONE_JELLYBEAN= registerBlock("redstone_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_LAYERS= registerBlock("Redstone_layers",
+    public static final RegistryObject<Block> REDSTONE_LAYERS= registerBlock("redstone_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_MOSAIC= registerBlock("Redstone_mosaic",
+    public static final RegistryObject<Block> REDSTONE_MOSAIC= registerBlock("redstone_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_ORNATE= registerBlock("Redstone_ornate",
+    public static final RegistryObject<Block> REDSTONE_ORNATE= registerBlock("redstone_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_PANEL= registerBlock("Redstone_panel",
+    public static final RegistryObject<Block> REDSTONE_PANEL= registerBlock("redstone_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_PILLAR= registerBlock("Redstone_pillar",
+    public static final RegistryObject<Block> REDSTONE_PILLAR= registerBlock("redstone_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_PRISM= registerBlock("Redstone_prism",
+    public static final RegistryObject<Block> REDSTONE_PRISM= registerBlock("redstone_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_RAW= registerBlock("Redstone_raw",
+    public static final RegistryObject<Block> REDSTONE_RAW= registerBlock("redstone_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_ROAD= registerBlock("Redstone_road",
+    public static final RegistryObject<Block> REDSTONE_ROAD= registerBlock("redstone_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_SLANTED= registerBlock("Redstone_slanted",
+    public static final RegistryObject<Block> REDSTONE_SLANTED= registerBlock("redstone_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_SMALL_BRICKS= registerBlock("Redstone_small_bricks",
+    public static final RegistryObject<Block> REDSTONE_SMALL_BRICKS= registerBlock("redstone_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_SOFT_BRICKS= registerBlock("Redstone_soft_bricks",
+    public static final RegistryObject<Block> REDSTONE_SOFT_BRICKS= registerBlock("redstone_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_SOLID_BRICKS= registerBlock("Redstone_solid_bricks",
+    public static final RegistryObject<Block> REDSTONE_SOLID_BRICKS= registerBlock("redstone_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_TILES_LARGE= registerBlock("Redstone_tiles_large",
+    public static final RegistryObject<Block> REDSTONE_TILES_LARGE= registerBlock("redstone_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_TILES_MEDIUM= registerBlock("Redstone_tiles_medium",
+    public static final RegistryObject<Block> REDSTONE_TILES_MEDIUM= registerBlock("redstone_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_TILES_SMALL= registerBlock("Redstone_tiles_small",
+    public static final RegistryObject<Block> REDSTONE_TILES_SMALL= registerBlock("redstone_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_TRIPLE_BRICKS= registerBlock("Redstone_triple_bricks",
+    public static final RegistryObject<Block> REDSTONE_TRIPLE_BRICKS= registerBlock("redstone_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_TWISTED= registerBlock("Redstone_twisted",
+    public static final RegistryObject<Block> REDSTONE_TWISTED= registerBlock("redstone_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_WEAVER= registerBlock("Redstone_weaver",
+    public static final RegistryObject<Block> REDSTONE_WEAVER= registerBlock("redstone_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Redstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> REDSTONE_ZAG= registerBlock("Redstone_zag",
+    public static final RegistryObject<Block> REDSTONE_ZAG= registerBlock("redstone_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

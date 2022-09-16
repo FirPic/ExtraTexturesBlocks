@@ -21,7 +21,7 @@ public class Fluid {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> FLUID_ARRAY= registerBlock("Fluid_array",
+    public static final RegistryObject<Block> FLUID_ARRAY= registerBlock("fluid_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_BRAID= registerBlock("Fluid_braid",
+    public static final RegistryObject<Block> FLUID_BRAID= registerBlock("fluid_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_CHAOTIC_BRICKS= registerBlock("Fluid_chaotic_bricks",
+    public static final RegistryObject<Block> FLUID_CHAOTIC_BRICKS= registerBlock("fluid_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_CHAOTIC_MEDIUM= registerBlock("Fluid_chaotic_medium",
+    public static final RegistryObject<Block> FLUID_CHAOTIC_MEDIUM= registerBlock("fluid_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_CHAOTIC_SMALL= registerBlock("Fluid_chaotic_small",
+    public static final RegistryObject<Block> FLUID_CHAOTIC_SMALL= registerBlock("fluid_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_CIRCULAR= registerBlock("Fluid_circular",
+    public static final RegistryObject<Block> FLUID_CIRCULAR= registerBlock("fluid_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_CRACKED= registerBlock("Fluid_cracked",
+    public static final RegistryObject<Block> FLUID_CRACKED= registerBlock("fluid_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_CRACKED_BRICKS= registerBlock("Fluid_cracked_bricks",
+    public static final RegistryObject<Block> FLUID_CRACKED_BRICKS= registerBlock("fluid_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_CUTS= registerBlock("Fluid_cuts",
+    public static final RegistryObject<Block> FLUID_CUTS= registerBlock("fluid_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_DENT= registerBlock("Fluid_dent",
+    public static final RegistryObject<Block> FLUID_DENT= registerBlock("fluid_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_ENCASED_BRICKS= registerBlock("Fluid_encased_bricks",
+    public static final RegistryObject<Block> FLUID_ENCASED_BRICKS= registerBlock("fluid_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_FRENCH_ONE= registerBlock("Fluid_french_one",
+    public static final RegistryObject<Block> FLUID_FRENCH_ONE= registerBlock("fluid_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_FRENCH_TWO= registerBlock("Fluid_french_two",
+    public static final RegistryObject<Block> FLUID_FRENCH_TWO= registerBlock("fluid_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_JELLYBEAN= registerBlock("Fluid_jellybean",
+    public static final RegistryObject<Block> FLUID_JELLYBEAN= registerBlock("fluid_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_LAYERS= registerBlock("Fluid_layers",
+    public static final RegistryObject<Block> FLUID_LAYERS= registerBlock("fluid_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_MOSAIC= registerBlock("Fluid_mosaic",
+    public static final RegistryObject<Block> FLUID_MOSAIC= registerBlock("fluid_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_ORNATE= registerBlock("Fluid_ornate",
+    public static final RegistryObject<Block> FLUID_ORNATE= registerBlock("fluid_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_PANEL= registerBlock("Fluid_panel",
+    public static final RegistryObject<Block> FLUID_PANEL= registerBlock("fluid_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_PILLAR= registerBlock("Fluid_pillar",
+    public static final RegistryObject<Block> FLUID_PILLAR= registerBlock("fluid_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_PRISM= registerBlock("Fluid_prism",
+    public static final RegistryObject<Block> FLUID_PRISM= registerBlock("fluid_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_RAW= registerBlock("Fluid_raw",
+    public static final RegistryObject<Block> FLUID_RAW= registerBlock("fluid_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_ROAD= registerBlock("Fluid_road",
+    public static final RegistryObject<Block> FLUID_ROAD= registerBlock("fluid_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_SLANTED= registerBlock("Fluid_slanted",
+    public static final RegistryObject<Block> FLUID_SLANTED= registerBlock("fluid_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_SMALL_BRICKS= registerBlock("Fluid_small_bricks",
+    public static final RegistryObject<Block> FLUID_SMALL_BRICKS= registerBlock("fluid_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_SOFT_BRICKS= registerBlock("Fluid_soft_bricks",
+    public static final RegistryObject<Block> FLUID_SOFT_BRICKS= registerBlock("fluid_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_SOLID_BRICKS= registerBlock("Fluid_solid_bricks",
+    public static final RegistryObject<Block> FLUID_SOLID_BRICKS= registerBlock("fluid_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_TILES_LARGE= registerBlock("Fluid_tiles_large",
+    public static final RegistryObject<Block> FLUID_TILES_LARGE= registerBlock("fluid_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_TILES_MEDIUM= registerBlock("Fluid_tiles_medium",
+    public static final RegistryObject<Block> FLUID_TILES_MEDIUM= registerBlock("fluid_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_TILES_SMALL= registerBlock("Fluid_tiles_small",
+    public static final RegistryObject<Block> FLUID_TILES_SMALL= registerBlock("fluid_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_TRIPLE_BRICKS= registerBlock("Fluid_triple_bricks",
+    public static final RegistryObject<Block> FLUID_TRIPLE_BRICKS= registerBlock("fluid_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_TWISTED= registerBlock("Fluid_twisted",
+    public static final RegistryObject<Block> FLUID_TWISTED= registerBlock("fluid_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_WEAVER= registerBlock("Fluid_weaver",
+    public static final RegistryObject<Block> FLUID_WEAVER= registerBlock("fluid_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Fluid {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> FLUID_ZAG= registerBlock("Fluid_zag",
+    public static final RegistryObject<Block> FLUID_ZAG= registerBlock("fluid_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

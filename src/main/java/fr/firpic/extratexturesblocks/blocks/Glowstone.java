@@ -21,7 +21,7 @@ public class Glowstone {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> GLOWSTONE_ARRAY= registerBlock("Glowstone_array",
+    public static final RegistryObject<Block> GLOWSTONE_ARRAY= registerBlock("glowstone_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_BRAID= registerBlock("Glowstone_braid",
+    public static final RegistryObject<Block> GLOWSTONE_BRAID= registerBlock("glowstone_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_CHAOTIC_BRICKS= registerBlock("Glowstone_chaotic_bricks",
+    public static final RegistryObject<Block> GLOWSTONE_CHAOTIC_BRICKS= registerBlock("glowstone_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_CHAOTIC_MEDIUM= registerBlock("Glowstone_chaotic_medium",
+    public static final RegistryObject<Block> GLOWSTONE_CHAOTIC_MEDIUM= registerBlock("glowstone_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_CHAOTIC_SMALL= registerBlock("Glowstone_chaotic_small",
+    public static final RegistryObject<Block> GLOWSTONE_CHAOTIC_SMALL= registerBlock("glowstone_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_CIRCULAR= registerBlock("Glowstone_circular",
+    public static final RegistryObject<Block> GLOWSTONE_CIRCULAR= registerBlock("glowstone_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_CRACKED= registerBlock("Glowstone_cracked",
+    public static final RegistryObject<Block> GLOWSTONE_CRACKED= registerBlock("glowstone_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_CRACKED_BRICKS= registerBlock("Glowstone_cracked_bricks",
+    public static final RegistryObject<Block> GLOWSTONE_CRACKED_BRICKS= registerBlock("glowstone_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_CUTS= registerBlock("Glowstone_cuts",
+    public static final RegistryObject<Block> GLOWSTONE_CUTS= registerBlock("glowstone_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_DENT= registerBlock("Glowstone_dent",
+    public static final RegistryObject<Block> GLOWSTONE_DENT= registerBlock("glowstone_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_ENCASED_BRICKS= registerBlock("Glowstone_encased_bricks",
+    public static final RegistryObject<Block> GLOWSTONE_ENCASED_BRICKS= registerBlock("glowstone_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_FRENCH_ONE= registerBlock("Glowstone_french_one",
+    public static final RegistryObject<Block> GLOWSTONE_FRENCH_ONE= registerBlock("glowstone_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_FRENCH_TWO= registerBlock("Glowstone_french_two",
+    public static final RegistryObject<Block> GLOWSTONE_FRENCH_TWO= registerBlock("glowstone_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_JELLYBEAN= registerBlock("Glowstone_jellybean",
+    public static final RegistryObject<Block> GLOWSTONE_JELLYBEAN= registerBlock("glowstone_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_LAYERS= registerBlock("Glowstone_layers",
+    public static final RegistryObject<Block> GLOWSTONE_LAYERS= registerBlock("glowstone_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_MOSAIC= registerBlock("Glowstone_mosaic",
+    public static final RegistryObject<Block> GLOWSTONE_MOSAIC= registerBlock("glowstone_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_ORNATE= registerBlock("Glowstone_ornate",
+    public static final RegistryObject<Block> GLOWSTONE_ORNATE= registerBlock("glowstone_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_PANEL= registerBlock("Glowstone_panel",
+    public static final RegistryObject<Block> GLOWSTONE_PANEL= registerBlock("glowstone_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_PILLAR= registerBlock("Glowstone_pillar",
+    public static final RegistryObject<Block> GLOWSTONE_PILLAR= registerBlock("glowstone_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_PRISM= registerBlock("Glowstone_prism",
+    public static final RegistryObject<Block> GLOWSTONE_PRISM= registerBlock("glowstone_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_RAW= registerBlock("Glowstone_raw",
+    public static final RegistryObject<Block> GLOWSTONE_RAW= registerBlock("glowstone_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_ROAD= registerBlock("Glowstone_road",
+    public static final RegistryObject<Block> GLOWSTONE_ROAD= registerBlock("glowstone_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_SLANTED= registerBlock("Glowstone_slanted",
+    public static final RegistryObject<Block> GLOWSTONE_SLANTED= registerBlock("glowstone_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_SMALL_BRICKS= registerBlock("Glowstone_small_bricks",
+    public static final RegistryObject<Block> GLOWSTONE_SMALL_BRICKS= registerBlock("glowstone_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_SOFT_BRICKS= registerBlock("Glowstone_soft_bricks",
+    public static final RegistryObject<Block> GLOWSTONE_SOFT_BRICKS= registerBlock("glowstone_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_SOLID_BRICKS= registerBlock("Glowstone_solid_bricks",
+    public static final RegistryObject<Block> GLOWSTONE_SOLID_BRICKS= registerBlock("glowstone_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_TILES_LARGE= registerBlock("Glowstone_tiles_large",
+    public static final RegistryObject<Block> GLOWSTONE_TILES_LARGE= registerBlock("glowstone_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_TILES_MEDIUM= registerBlock("Glowstone_tiles_medium",
+    public static final RegistryObject<Block> GLOWSTONE_TILES_MEDIUM= registerBlock("glowstone_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_TILES_SMALL= registerBlock("Glowstone_tiles_small",
+    public static final RegistryObject<Block> GLOWSTONE_TILES_SMALL= registerBlock("glowstone_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_TRIPLE_BRICKS= registerBlock("Glowstone_triple_bricks",
+    public static final RegistryObject<Block> GLOWSTONE_TRIPLE_BRICKS= registerBlock("glowstone_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_TWISTED= registerBlock("Glowstone_twisted",
+    public static final RegistryObject<Block> GLOWSTONE_TWISTED= registerBlock("glowstone_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_WEAVER= registerBlock("Glowstone_weaver",
+    public static final RegistryObject<Block> GLOWSTONE_WEAVER= registerBlock("glowstone_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Glowstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GLOWSTONE_ZAG= registerBlock("Glowstone_zag",
+    public static final RegistryObject<Block> GLOWSTONE_ZAG= registerBlock("glowstone_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

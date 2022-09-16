@@ -21,7 +21,7 @@ public class Prismarine {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> PRISMARINE_ARRAY= registerBlock("Prismarine_array",
+    public static final RegistryObject<Block> PRISMARINE_ARRAY= registerBlock("prismarine_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_BRAID= registerBlock("Prismarine_braid",
+    public static final RegistryObject<Block> PRISMARINE_BRAID= registerBlock("prismarine_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_CHAOTIC_BRICKS= registerBlock("Prismarine_chaotic_bricks",
+    public static final RegistryObject<Block> PRISMARINE_CHAOTIC_BRICKS= registerBlock("prismarine_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_CHAOTIC_MEDIUM= registerBlock("Prismarine_chaotic_medium",
+    public static final RegistryObject<Block> PRISMARINE_CHAOTIC_MEDIUM= registerBlock("prismarine_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_CHAOTIC_SMALL= registerBlock("Prismarine_chaotic_small",
+    public static final RegistryObject<Block> PRISMARINE_CHAOTIC_SMALL= registerBlock("prismarine_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_CIRCULAR= registerBlock("Prismarine_circular",
+    public static final RegistryObject<Block> PRISMARINE_CIRCULAR= registerBlock("prismarine_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_CRACKED= registerBlock("Prismarine_cracked",
+    public static final RegistryObject<Block> PRISMARINE_CRACKED= registerBlock("prismarine_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_CRACKED_BRICKS= registerBlock("Prismarine_cracked_bricks",
+    public static final RegistryObject<Block> PRISMARINE_CRACKED_BRICKS= registerBlock("prismarine_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_CUTS= registerBlock("Prismarine_cuts",
+    public static final RegistryObject<Block> PRISMARINE_CUTS= registerBlock("prismarine_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_DENT= registerBlock("Prismarine_dent",
+    public static final RegistryObject<Block> PRISMARINE_DENT= registerBlock("prismarine_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_ENCASED_BRICKS= registerBlock("Prismarine_encased_bricks",
+    public static final RegistryObject<Block> PRISMARINE_ENCASED_BRICKS= registerBlock("prismarine_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_FRENCH_ONE= registerBlock("Prismarine_french_one",
+    public static final RegistryObject<Block> PRISMARINE_FRENCH_ONE= registerBlock("prismarine_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_FRENCH_TWO= registerBlock("Prismarine_french_two",
+    public static final RegistryObject<Block> PRISMARINE_FRENCH_TWO= registerBlock("prismarine_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_JELLYBEAN= registerBlock("Prismarine_jellybean",
+    public static final RegistryObject<Block> PRISMARINE_JELLYBEAN= registerBlock("prismarine_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_LAYERS= registerBlock("Prismarine_layers",
+    public static final RegistryObject<Block> PRISMARINE_LAYERS= registerBlock("prismarine_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_MOSAIC= registerBlock("Prismarine_mosaic",
+    public static final RegistryObject<Block> PRISMARINE_MOSAIC= registerBlock("prismarine_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_ORNATE= registerBlock("Prismarine_ornate",
+    public static final RegistryObject<Block> PRISMARINE_ORNATE= registerBlock("prismarine_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_PANEL= registerBlock("Prismarine_panel",
+    public static final RegistryObject<Block> PRISMARINE_PANEL= registerBlock("prismarine_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_PILLAR= registerBlock("Prismarine_pillar",
+    public static final RegistryObject<Block> PRISMARINE_PILLAR= registerBlock("prismarine_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_PRISM= registerBlock("Prismarine_prism",
+    public static final RegistryObject<Block> PRISMARINE_PRISM= registerBlock("prismarine_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_RAW= registerBlock("Prismarine_raw",
+    public static final RegistryObject<Block> PRISMARINE_RAW= registerBlock("prismarine_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_ROAD= registerBlock("Prismarine_road",
+    public static final RegistryObject<Block> PRISMARINE_ROAD= registerBlock("prismarine_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_SLANTED= registerBlock("Prismarine_slanted",
+    public static final RegistryObject<Block> PRISMARINE_SLANTED= registerBlock("prismarine_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_SMALL_BRICKS= registerBlock("Prismarine_small_bricks",
+    public static final RegistryObject<Block> PRISMARINE_SMALL_BRICKS= registerBlock("prismarine_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_SOFT_BRICKS= registerBlock("Prismarine_soft_bricks",
+    public static final RegistryObject<Block> PRISMARINE_SOFT_BRICKS= registerBlock("prismarine_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_SOLID_BRICKS= registerBlock("Prismarine_solid_bricks",
+    public static final RegistryObject<Block> PRISMARINE_SOLID_BRICKS= registerBlock("prismarine_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_TILES_LARGE= registerBlock("Prismarine_tiles_large",
+    public static final RegistryObject<Block> PRISMARINE_TILES_LARGE= registerBlock("prismarine_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_TILES_MEDIUM= registerBlock("Prismarine_tiles_medium",
+    public static final RegistryObject<Block> PRISMARINE_TILES_MEDIUM= registerBlock("prismarine_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_TILES_SMALL= registerBlock("Prismarine_tiles_small",
+    public static final RegistryObject<Block> PRISMARINE_TILES_SMALL= registerBlock("prismarine_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_TRIPLE_BRICKS= registerBlock("Prismarine_triple_bricks",
+    public static final RegistryObject<Block> PRISMARINE_TRIPLE_BRICKS= registerBlock("prismarine_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_TWISTED= registerBlock("Prismarine_twisted",
+    public static final RegistryObject<Block> PRISMARINE_TWISTED= registerBlock("prismarine_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_WEAVER= registerBlock("Prismarine_weaver",
+    public static final RegistryObject<Block> PRISMARINE_WEAVER= registerBlock("prismarine_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Prismarine {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PRISMARINE_ZAG= registerBlock("Prismarine_zag",
+    public static final RegistryObject<Block> PRISMARINE_ZAG= registerBlock("prismarine_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

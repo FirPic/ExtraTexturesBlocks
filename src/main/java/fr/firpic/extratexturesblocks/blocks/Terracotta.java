@@ -21,7 +21,7 @@ public class Terracotta {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> TERRACOTTA_ARRAY= registerBlock("Terracotta_array",
+    public static final RegistryObject<Block> TERRACOTTA_ARRAY= registerBlock("terracotta_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_BRAID= registerBlock("Terracotta_braid",
+    public static final RegistryObject<Block> TERRACOTTA_BRAID= registerBlock("terracotta_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_CHAOTIC_BRICKS= registerBlock("Terracotta_chaotic_bricks",
+    public static final RegistryObject<Block> TERRACOTTA_CHAOTIC_BRICKS= registerBlock("terracotta_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_CHAOTIC_MEDIUM= registerBlock("Terracotta_chaotic_medium",
+    public static final RegistryObject<Block> TERRACOTTA_CHAOTIC_MEDIUM= registerBlock("terracotta_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_CHAOTIC_SMALL= registerBlock("Terracotta_chaotic_small",
+    public static final RegistryObject<Block> TERRACOTTA_CHAOTIC_SMALL= registerBlock("terracotta_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_CIRCULAR= registerBlock("Terracotta_circular",
+    public static final RegistryObject<Block> TERRACOTTA_CIRCULAR= registerBlock("terracotta_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_CRACKED= registerBlock("Terracotta_cracked",
+    public static final RegistryObject<Block> TERRACOTTA_CRACKED= registerBlock("terracotta_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_CRACKED_BRICKS= registerBlock("Terracotta_cracked_bricks",
+    public static final RegistryObject<Block> TERRACOTTA_CRACKED_BRICKS= registerBlock("terracotta_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_CUTS= registerBlock("Terracotta_cuts",
+    public static final RegistryObject<Block> TERRACOTTA_CUTS= registerBlock("terracotta_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_DENT= registerBlock("Terracotta_dent",
+    public static final RegistryObject<Block> TERRACOTTA_DENT= registerBlock("terracotta_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_ENCASED_BRICKS= registerBlock("Terracotta_encased_bricks",
+    public static final RegistryObject<Block> TERRACOTTA_ENCASED_BRICKS= registerBlock("terracotta_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_FRENCH_ONE= registerBlock("Terracotta_french_one",
+    public static final RegistryObject<Block> TERRACOTTA_FRENCH_ONE= registerBlock("terracotta_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_FRENCH_TWO= registerBlock("Terracotta_french_two",
+    public static final RegistryObject<Block> TERRACOTTA_FRENCH_TWO= registerBlock("terracotta_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_JELLYBEAN= registerBlock("Terracotta_jellybean",
+    public static final RegistryObject<Block> TERRACOTTA_JELLYBEAN= registerBlock("terracotta_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_LAYERS= registerBlock("Terracotta_layers",
+    public static final RegistryObject<Block> TERRACOTTA_LAYERS= registerBlock("terracotta_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_MOSAIC= registerBlock("Terracotta_mosaic",
+    public static final RegistryObject<Block> TERRACOTTA_MOSAIC= registerBlock("terracotta_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_ORNATE= registerBlock("Terracotta_ornate",
+    public static final RegistryObject<Block> TERRACOTTA_ORNATE= registerBlock("terracotta_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_PANEL= registerBlock("Terracotta_panel",
+    public static final RegistryObject<Block> TERRACOTTA_PANEL= registerBlock("terracotta_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_PILLAR= registerBlock("Terracotta_pillar",
+    public static final RegistryObject<Block> TERRACOTTA_PILLAR= registerBlock("terracotta_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_PRISM= registerBlock("Terracotta_prism",
+    public static final RegistryObject<Block> TERRACOTTA_PRISM= registerBlock("terracotta_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_RAW= registerBlock("Terracotta_raw",
+    public static final RegistryObject<Block> TERRACOTTA_RAW= registerBlock("terracotta_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_ROAD= registerBlock("Terracotta_road",
+    public static final RegistryObject<Block> TERRACOTTA_ROAD= registerBlock("terracotta_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_SLANTED= registerBlock("Terracotta_slanted",
+    public static final RegistryObject<Block> TERRACOTTA_SLANTED= registerBlock("terracotta_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_SMALL_BRICKS= registerBlock("Terracotta_small_bricks",
+    public static final RegistryObject<Block> TERRACOTTA_SMALL_BRICKS= registerBlock("terracotta_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_SOFT_BRICKS= registerBlock("Terracotta_soft_bricks",
+    public static final RegistryObject<Block> TERRACOTTA_SOFT_BRICKS= registerBlock("terracotta_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_SOLID_BRICKS= registerBlock("Terracotta_solid_bricks",
+    public static final RegistryObject<Block> TERRACOTTA_SOLID_BRICKS= registerBlock("terracotta_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_TILES_LARGE= registerBlock("Terracotta_tiles_large",
+    public static final RegistryObject<Block> TERRACOTTA_TILES_LARGE= registerBlock("terracotta_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_TILES_MEDIUM= registerBlock("Terracotta_tiles_medium",
+    public static final RegistryObject<Block> TERRACOTTA_TILES_MEDIUM= registerBlock("terracotta_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_TILES_SMALL= registerBlock("Terracotta_tiles_small",
+    public static final RegistryObject<Block> TERRACOTTA_TILES_SMALL= registerBlock("terracotta_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_TRIPLE_BRICKS= registerBlock("Terracotta_triple_bricks",
+    public static final RegistryObject<Block> TERRACOTTA_TRIPLE_BRICKS= registerBlock("terracotta_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_TWISTED= registerBlock("Terracotta_twisted",
+    public static final RegistryObject<Block> TERRACOTTA_TWISTED= registerBlock("terracotta_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_WEAVER= registerBlock("Terracotta_weaver",
+    public static final RegistryObject<Block> TERRACOTTA_WEAVER= registerBlock("terracotta_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Terracotta {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> TERRACOTTA_ZAG= registerBlock("Terracotta_zag",
+    public static final RegistryObject<Block> TERRACOTTA_ZAG= registerBlock("terracotta_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

@@ -21,7 +21,7 @@ public class Marble {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> MARBLE_ARRAY= registerBlock("Marble_array",
+    public static final RegistryObject<Block> MARBLE_ARRAY= registerBlock("marble_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_BRAID= registerBlock("Marble_braid",
+    public static final RegistryObject<Block> MARBLE_BRAID= registerBlock("marble_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_CHAOTIC_BRICKS= registerBlock("Marble_chaotic_bricks",
+    public static final RegistryObject<Block> MARBLE_CHAOTIC_BRICKS= registerBlock("marble_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_CHAOTIC_MEDIUM= registerBlock("Marble_chaotic_medium",
+    public static final RegistryObject<Block> MARBLE_CHAOTIC_MEDIUM= registerBlock("marble_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_CHAOTIC_SMALL= registerBlock("Marble_chaotic_small",
+    public static final RegistryObject<Block> MARBLE_CHAOTIC_SMALL= registerBlock("marble_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_CIRCULAR= registerBlock("Marble_circular",
+    public static final RegistryObject<Block> MARBLE_CIRCULAR= registerBlock("marble_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_CRACKED= registerBlock("Marble_cracked",
+    public static final RegistryObject<Block> MARBLE_CRACKED= registerBlock("marble_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_CRACKED_BRICKS= registerBlock("Marble_cracked_bricks",
+    public static final RegistryObject<Block> MARBLE_CRACKED_BRICKS= registerBlock("marble_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_CUTS= registerBlock("Marble_cuts",
+    public static final RegistryObject<Block> MARBLE_CUTS= registerBlock("marble_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_DENT= registerBlock("Marble_dent",
+    public static final RegistryObject<Block> MARBLE_DENT= registerBlock("marble_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_ENCASED_BRICKS= registerBlock("Marble_encased_bricks",
+    public static final RegistryObject<Block> MARBLE_ENCASED_BRICKS= registerBlock("marble_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_FRENCH_ONE= registerBlock("Marble_french_one",
+    public static final RegistryObject<Block> MARBLE_FRENCH_ONE= registerBlock("marble_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_FRENCH_TWO= registerBlock("Marble_french_two",
+    public static final RegistryObject<Block> MARBLE_FRENCH_TWO= registerBlock("marble_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_JELLYBEAN= registerBlock("Marble_jellybean",
+    public static final RegistryObject<Block> MARBLE_JELLYBEAN= registerBlock("marble_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_LAYERS= registerBlock("Marble_layers",
+    public static final RegistryObject<Block> MARBLE_LAYERS= registerBlock("marble_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_MOSAIC= registerBlock("Marble_mosaic",
+    public static final RegistryObject<Block> MARBLE_MOSAIC= registerBlock("marble_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_ORNATE= registerBlock("Marble_ornate",
+    public static final RegistryObject<Block> MARBLE_ORNATE= registerBlock("marble_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_PANEL= registerBlock("Marble_panel",
+    public static final RegistryObject<Block> MARBLE_PANEL= registerBlock("marble_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_PILLAR= registerBlock("Marble_pillar",
+    public static final RegistryObject<Block> MARBLE_PILLAR= registerBlock("marble_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_PRISM= registerBlock("Marble_prism",
+    public static final RegistryObject<Block> MARBLE_PRISM= registerBlock("marble_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_RAW= registerBlock("Marble_raw",
+    public static final RegistryObject<Block> MARBLE_RAW= registerBlock("marble_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_ROAD= registerBlock("Marble_road",
+    public static final RegistryObject<Block> MARBLE_ROAD= registerBlock("marble_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_SLANTED= registerBlock("Marble_slanted",
+    public static final RegistryObject<Block> MARBLE_SLANTED= registerBlock("marble_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_SMALL_BRICKS= registerBlock("Marble_small_bricks",
+    public static final RegistryObject<Block> MARBLE_SMALL_BRICKS= registerBlock("marble_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_SOFT_BRICKS= registerBlock("Marble_soft_bricks",
+    public static final RegistryObject<Block> MARBLE_SOFT_BRICKS= registerBlock("marble_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_SOLID_BRICKS= registerBlock("Marble_solid_bricks",
+    public static final RegistryObject<Block> MARBLE_SOLID_BRICKS= registerBlock("marble_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_TILES_LARGE= registerBlock("Marble_tiles_large",
+    public static final RegistryObject<Block> MARBLE_TILES_LARGE= registerBlock("marble_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_TILES_MEDIUM= registerBlock("Marble_tiles_medium",
+    public static final RegistryObject<Block> MARBLE_TILES_MEDIUM= registerBlock("marble_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_TILES_SMALL= registerBlock("Marble_tiles_small",
+    public static final RegistryObject<Block> MARBLE_TILES_SMALL= registerBlock("marble_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_TRIPLE_BRICKS= registerBlock("Marble_triple_bricks",
+    public static final RegistryObject<Block> MARBLE_TRIPLE_BRICKS= registerBlock("marble_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_TWISTED= registerBlock("Marble_twisted",
+    public static final RegistryObject<Block> MARBLE_TWISTED= registerBlock("marble_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_WEAVER= registerBlock("Marble_weaver",
+    public static final RegistryObject<Block> MARBLE_WEAVER= registerBlock("marble_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Marble {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> MARBLE_ZAG= registerBlock("Marble_zag",
+    public static final RegistryObject<Block> MARBLE_ZAG= registerBlock("marble_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

@@ -21,7 +21,7 @@ public class Sandstone {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> SANDSTONE_ARRAY= registerBlock("Sandstone_array",
+    public static final RegistryObject<Block> SANDSTONE_ARRAY= registerBlock("sandstone_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_BRAID= registerBlock("Sandstone_braid",
+    public static final RegistryObject<Block> SANDSTONE_BRAID= registerBlock("sandstone_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_CHAOTIC_BRICKS= registerBlock("Sandstone_chaotic_bricks",
+    public static final RegistryObject<Block> SANDSTONE_CHAOTIC_BRICKS= registerBlock("sandstone_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_CHAOTIC_MEDIUM= registerBlock("Sandstone_chaotic_medium",
+    public static final RegistryObject<Block> SANDSTONE_CHAOTIC_MEDIUM= registerBlock("sandstone_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_CHAOTIC_SMALL= registerBlock("Sandstone_chaotic_small",
+    public static final RegistryObject<Block> SANDSTONE_CHAOTIC_SMALL= registerBlock("sandstone_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_CIRCULAR= registerBlock("Sandstone_circular",
+    public static final RegistryObject<Block> SANDSTONE_CIRCULAR= registerBlock("sandstone_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_CRACKED= registerBlock("Sandstone_cracked",
+    public static final RegistryObject<Block> SANDSTONE_CRACKED= registerBlock("sandstone_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_CRACKED_BRICKS= registerBlock("Sandstone_cracked_bricks",
+    public static final RegistryObject<Block> SANDSTONE_CRACKED_BRICKS= registerBlock("sandstone_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_CUTS= registerBlock("Sandstone_cuts",
+    public static final RegistryObject<Block> SANDSTONE_CUTS= registerBlock("sandstone_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_DENT= registerBlock("Sandstone_dent",
+    public static final RegistryObject<Block> SANDSTONE_DENT= registerBlock("sandstone_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_ENCASED_BRICKS= registerBlock("Sandstone_encased_bricks",
+    public static final RegistryObject<Block> SANDSTONE_ENCASED_BRICKS= registerBlock("sandstone_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_FRENCH_ONE= registerBlock("Sandstone_french_one",
+    public static final RegistryObject<Block> SANDSTONE_FRENCH_ONE= registerBlock("sandstone_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_FRENCH_TWO= registerBlock("Sandstone_french_two",
+    public static final RegistryObject<Block> SANDSTONE_FRENCH_TWO= registerBlock("sandstone_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_JELLYBEAN= registerBlock("Sandstone_jellybean",
+    public static final RegistryObject<Block> SANDSTONE_JELLYBEAN= registerBlock("sandstone_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_LAYERS= registerBlock("Sandstone_layers",
+    public static final RegistryObject<Block> SANDSTONE_LAYERS= registerBlock("sandstone_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_MOSAIC= registerBlock("Sandstone_mosaic",
+    public static final RegistryObject<Block> SANDSTONE_MOSAIC= registerBlock("sandstone_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_ORNATE= registerBlock("Sandstone_ornate",
+    public static final RegistryObject<Block> SANDSTONE_ORNATE= registerBlock("sandstone_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_PANEL= registerBlock("Sandstone_panel",
+    public static final RegistryObject<Block> SANDSTONE_PANEL= registerBlock("sandstone_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_PILLAR= registerBlock("Sandstone_pillar",
+    public static final RegistryObject<Block> SANDSTONE_PILLAR= registerBlock("sandstone_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_PRISM= registerBlock("Sandstone_prism",
+    public static final RegistryObject<Block> SANDSTONE_PRISM= registerBlock("sandstone_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_RAW= registerBlock("Sandstone_raw",
+    public static final RegistryObject<Block> SANDSTONE_RAW= registerBlock("sandstone_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_ROAD= registerBlock("Sandstone_road",
+    public static final RegistryObject<Block> SANDSTONE_ROAD= registerBlock("sandstone_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_SLANTED= registerBlock("Sandstone_slanted",
+    public static final RegistryObject<Block> SANDSTONE_SLANTED= registerBlock("sandstone_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_SMALL_BRICKS= registerBlock("Sandstone_small_bricks",
+    public static final RegistryObject<Block> SANDSTONE_SMALL_BRICKS= registerBlock("sandstone_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_SOFT_BRICKS= registerBlock("Sandstone_soft_bricks",
+    public static final RegistryObject<Block> SANDSTONE_SOFT_BRICKS= registerBlock("sandstone_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_SOLID_BRICKS= registerBlock("Sandstone_solid_bricks",
+    public static final RegistryObject<Block> SANDSTONE_SOLID_BRICKS= registerBlock("sandstone_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_TILES_LARGE= registerBlock("Sandstone_tiles_large",
+    public static final RegistryObject<Block> SANDSTONE_TILES_LARGE= registerBlock("sandstone_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_TILES_MEDIUM= registerBlock("Sandstone_tiles_medium",
+    public static final RegistryObject<Block> SANDSTONE_TILES_MEDIUM= registerBlock("sandstone_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_TILES_SMALL= registerBlock("Sandstone_tiles_small",
+    public static final RegistryObject<Block> SANDSTONE_TILES_SMALL= registerBlock("sandstone_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_TRIPLE_BRICKS= registerBlock("Sandstone_triple_bricks",
+    public static final RegistryObject<Block> SANDSTONE_TRIPLE_BRICKS= registerBlock("sandstone_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_TWISTED= registerBlock("Sandstone_twisted",
+    public static final RegistryObject<Block> SANDSTONE_TWISTED= registerBlock("sandstone_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_WEAVER= registerBlock("Sandstone_weaver",
+    public static final RegistryObject<Block> SANDSTONE_WEAVER= registerBlock("sandstone_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Sandstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> SANDSTONE_ZAG= registerBlock("Sandstone_zag",
+    public static final RegistryObject<Block> SANDSTONE_ZAG= registerBlock("sandstone_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

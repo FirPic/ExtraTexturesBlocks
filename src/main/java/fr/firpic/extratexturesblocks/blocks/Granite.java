@@ -21,7 +21,7 @@ public class Granite {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> GRANITE_ARRAY= registerBlock("Granite_array",
+    public static final RegistryObject<Block> GRANITE_ARRAY= registerBlock("granite_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_BRAID= registerBlock("Granite_braid",
+    public static final RegistryObject<Block> GRANITE_BRAID= registerBlock("granite_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_CHAOTIC_BRICKS= registerBlock("Granite_chaotic_bricks",
+    public static final RegistryObject<Block> GRANITE_CHAOTIC_BRICKS= registerBlock("granite_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_CHAOTIC_MEDIUM= registerBlock("Granite_chaotic_medium",
+    public static final RegistryObject<Block> GRANITE_CHAOTIC_MEDIUM= registerBlock("granite_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_CHAOTIC_SMALL= registerBlock("Granite_chaotic_small",
+    public static final RegistryObject<Block> GRANITE_CHAOTIC_SMALL= registerBlock("granite_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_CIRCULAR= registerBlock("Granite_circular",
+    public static final RegistryObject<Block> GRANITE_CIRCULAR= registerBlock("granite_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_CRACKED= registerBlock("Granite_cracked",
+    public static final RegistryObject<Block> GRANITE_CRACKED= registerBlock("granite_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_CRACKED_BRICKS= registerBlock("Granite_cracked_bricks",
+    public static final RegistryObject<Block> GRANITE_CRACKED_BRICKS= registerBlock("granite_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_CUTS= registerBlock("Granite_cuts",
+    public static final RegistryObject<Block> GRANITE_CUTS= registerBlock("granite_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_DENT= registerBlock("Granite_dent",
+    public static final RegistryObject<Block> GRANITE_DENT= registerBlock("granite_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_ENCASED_BRICKS= registerBlock("Granite_encased_bricks",
+    public static final RegistryObject<Block> GRANITE_ENCASED_BRICKS= registerBlock("granite_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_FRENCH_ONE= registerBlock("Granite_french_one",
+    public static final RegistryObject<Block> GRANITE_FRENCH_ONE= registerBlock("granite_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_FRENCH_TWO= registerBlock("Granite_french_two",
+    public static final RegistryObject<Block> GRANITE_FRENCH_TWO= registerBlock("granite_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_JELLYBEAN= registerBlock("Granite_jellybean",
+    public static final RegistryObject<Block> GRANITE_JELLYBEAN= registerBlock("granite_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_LAYERS= registerBlock("Granite_layers",
+    public static final RegistryObject<Block> GRANITE_LAYERS= registerBlock("granite_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_MOSAIC= registerBlock("Granite_mosaic",
+    public static final RegistryObject<Block> GRANITE_MOSAIC= registerBlock("granite_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_ORNATE= registerBlock("Granite_ornate",
+    public static final RegistryObject<Block> GRANITE_ORNATE= registerBlock("granite_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_PANEL= registerBlock("Granite_panel",
+    public static final RegistryObject<Block> GRANITE_PANEL= registerBlock("granite_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_PILLAR= registerBlock("Granite_pillar",
+    public static final RegistryObject<Block> GRANITE_PILLAR= registerBlock("granite_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_PRISM= registerBlock("Granite_prism",
+    public static final RegistryObject<Block> GRANITE_PRISM= registerBlock("granite_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_RAW= registerBlock("Granite_raw",
+    public static final RegistryObject<Block> GRANITE_RAW= registerBlock("granite_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_ROAD= registerBlock("Granite_road",
+    public static final RegistryObject<Block> GRANITE_ROAD= registerBlock("granite_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_SLANTED= registerBlock("Granite_slanted",
+    public static final RegistryObject<Block> GRANITE_SLANTED= registerBlock("granite_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_SMALL_BRICKS= registerBlock("Granite_small_bricks",
+    public static final RegistryObject<Block> GRANITE_SMALL_BRICKS= registerBlock("granite_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_SOFT_BRICKS= registerBlock("Granite_soft_bricks",
+    public static final RegistryObject<Block> GRANITE_SOFT_BRICKS= registerBlock("granite_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_SOLID_BRICKS= registerBlock("Granite_solid_bricks",
+    public static final RegistryObject<Block> GRANITE_SOLID_BRICKS= registerBlock("granite_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_TILES_LARGE= registerBlock("Granite_tiles_large",
+    public static final RegistryObject<Block> GRANITE_TILES_LARGE= registerBlock("granite_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_TILES_MEDIUM= registerBlock("Granite_tiles_medium",
+    public static final RegistryObject<Block> GRANITE_TILES_MEDIUM= registerBlock("granite_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_TILES_SMALL= registerBlock("Granite_tiles_small",
+    public static final RegistryObject<Block> GRANITE_TILES_SMALL= registerBlock("granite_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_TRIPLE_BRICKS= registerBlock("Granite_triple_bricks",
+    public static final RegistryObject<Block> GRANITE_TRIPLE_BRICKS= registerBlock("granite_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_TWISTED= registerBlock("Granite_twisted",
+    public static final RegistryObject<Block> GRANITE_TWISTED= registerBlock("granite_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_WEAVER= registerBlock("Granite_weaver",
+    public static final RegistryObject<Block> GRANITE_WEAVER= registerBlock("granite_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Granite {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> GRANITE_ZAG= registerBlock("Granite_zag",
+    public static final RegistryObject<Block> GRANITE_ZAG= registerBlock("granite_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

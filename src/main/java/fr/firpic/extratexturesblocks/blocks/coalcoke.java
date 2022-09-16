@@ -21,7 +21,7 @@ public class Coalcoke {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> COALCOKE_ARRAY= registerBlock("Coalcoke_array",
+    public static final RegistryObject<Block> COALCOKE_ARRAY= registerBlock("coalcoke_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_BRAID= registerBlock("Coalcoke_braid",
+    public static final RegistryObject<Block> COALCOKE_BRAID= registerBlock("coalcoke_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_CHAOTIC_BRICKS= registerBlock("Coalcoke_chaotic_bricks",
+    public static final RegistryObject<Block> COALCOKE_CHAOTIC_BRICKS= registerBlock("coalcoke_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_CHAOTIC_MEDIUM= registerBlock("Coalcoke_chaotic_medium",
+    public static final RegistryObject<Block> COALCOKE_CHAOTIC_MEDIUM= registerBlock("coalcoke_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_CHAOTIC_SMALL= registerBlock("Coalcoke_chaotic_small",
+    public static final RegistryObject<Block> COALCOKE_CHAOTIC_SMALL= registerBlock("coalcoke_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_CIRCULAR= registerBlock("Coalcoke_circular",
+    public static final RegistryObject<Block> COALCOKE_CIRCULAR= registerBlock("coalcoke_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_CRACKED= registerBlock("Coalcoke_cracked",
+    public static final RegistryObject<Block> COALCOKE_CRACKED= registerBlock("coalcoke_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_CRACKED_BRICKS= registerBlock("Coalcoke_cracked_bricks",
+    public static final RegistryObject<Block> COALCOKE_CRACKED_BRICKS= registerBlock("coalcoke_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_CUTS= registerBlock("Coalcoke_cuts",
+    public static final RegistryObject<Block> COALCOKE_CUTS= registerBlock("coalcoke_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_DENT= registerBlock("Coalcoke_dent",
+    public static final RegistryObject<Block> COALCOKE_DENT= registerBlock("coalcoke_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_ENCASED_BRICKS= registerBlock("Coalcoke_encased_bricks",
+    public static final RegistryObject<Block> COALCOKE_ENCASED_BRICKS= registerBlock("coalcoke_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_FRENCH_ONE= registerBlock("Coalcoke_french_one",
+    public static final RegistryObject<Block> COALCOKE_FRENCH_ONE= registerBlock("coalcoke_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_FRENCH_TWO= registerBlock("Coalcoke_french_two",
+    public static final RegistryObject<Block> COALCOKE_FRENCH_TWO= registerBlock("coalcoke_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_JELLYBEAN= registerBlock("Coalcoke_jellybean",
+    public static final RegistryObject<Block> COALCOKE_JELLYBEAN= registerBlock("coalcoke_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_LAYERS= registerBlock("Coalcoke_layers",
+    public static final RegistryObject<Block> COALCOKE_LAYERS= registerBlock("coalcoke_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_MOSAIC= registerBlock("Coalcoke_mosaic",
+    public static final RegistryObject<Block> COALCOKE_MOSAIC= registerBlock("coalcoke_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_ORNATE= registerBlock("Coalcoke_ornate",
+    public static final RegistryObject<Block> COALCOKE_ORNATE= registerBlock("coalcoke_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_PANEL= registerBlock("Coalcoke_panel",
+    public static final RegistryObject<Block> COALCOKE_PANEL= registerBlock("coalcoke_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_PILLAR= registerBlock("Coalcoke_pillar",
+    public static final RegistryObject<Block> COALCOKE_PILLAR= registerBlock("coalcoke_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_PRISM= registerBlock("Coalcoke_prism",
+    public static final RegistryObject<Block> COALCOKE_PRISM= registerBlock("coalcoke_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_RAW= registerBlock("Coalcoke_raw",
+    public static final RegistryObject<Block> COALCOKE_RAW= registerBlock("coalcoke_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_ROAD= registerBlock("Coalcoke_road",
+    public static final RegistryObject<Block> COALCOKE_ROAD= registerBlock("coalcoke_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_SLANTED= registerBlock("Coalcoke_slanted",
+    public static final RegistryObject<Block> COALCOKE_SLANTED= registerBlock("coalcoke_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_SMALL_BRICKS= registerBlock("Coalcoke_small_bricks",
+    public static final RegistryObject<Block> COALCOKE_SMALL_BRICKS= registerBlock("coalcoke_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_SOFT_BRICKS= registerBlock("Coalcoke_soft_bricks",
+    public static final RegistryObject<Block> COALCOKE_SOFT_BRICKS= registerBlock("coalcoke_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_SOLID_BRICKS= registerBlock("Coalcoke_solid_bricks",
+    public static final RegistryObject<Block> COALCOKE_SOLID_BRICKS= registerBlock("coalcoke_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_TILES_LARGE= registerBlock("Coalcoke_tiles_large",
+    public static final RegistryObject<Block> COALCOKE_TILES_LARGE= registerBlock("coalcoke_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_TILES_MEDIUM= registerBlock("Coalcoke_tiles_medium",
+    public static final RegistryObject<Block> COALCOKE_TILES_MEDIUM= registerBlock("coalcoke_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_TILES_SMALL= registerBlock("Coalcoke_tiles_small",
+    public static final RegistryObject<Block> COALCOKE_TILES_SMALL= registerBlock("coalcoke_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_TRIPLE_BRICKS= registerBlock("Coalcoke_triple_bricks",
+    public static final RegistryObject<Block> COALCOKE_TRIPLE_BRICKS= registerBlock("coalcoke_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_TWISTED= registerBlock("Coalcoke_twisted",
+    public static final RegistryObject<Block> COALCOKE_TWISTED= registerBlock("coalcoke_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_WEAVER= registerBlock("Coalcoke_weaver",
+    public static final RegistryObject<Block> COALCOKE_WEAVER= registerBlock("coalcoke_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Coalcoke {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> COALCOKE_ZAG= registerBlock("Coalcoke_zag",
+    public static final RegistryObject<Block> COALCOKE_ZAG= registerBlock("coalcoke_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -295,7 +295,7 @@ public class Coalcoke {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         EtbItemsRegistry.ITEMS.register(name, ()->new BlockItem(block.get(),
-                new Item.Properties().group(EtbItemGroup.CoalCokeGroup)));
+                new Item.Properties().group(EtbItemGroup.CoalcokeGroup)));
     }
 
 

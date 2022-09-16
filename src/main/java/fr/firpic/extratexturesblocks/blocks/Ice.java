@@ -21,7 +21,7 @@ public class Ice {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> ICE_ARRAY= registerBlock("Ice_array",
+    public static final RegistryObject<Block> ICE_ARRAY= registerBlock("ice_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_BRAID= registerBlock("Ice_braid",
+    public static final RegistryObject<Block> ICE_BRAID= registerBlock("ice_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_CHAOTIC_BRICKS= registerBlock("Ice_chaotic_bricks",
+    public static final RegistryObject<Block> ICE_CHAOTIC_BRICKS= registerBlock("ice_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_CHAOTIC_MEDIUM= registerBlock("Ice_chaotic_medium",
+    public static final RegistryObject<Block> ICE_CHAOTIC_MEDIUM= registerBlock("ice_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_CHAOTIC_SMALL= registerBlock("Ice_chaotic_small",
+    public static final RegistryObject<Block> ICE_CHAOTIC_SMALL= registerBlock("ice_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_CIRCULAR= registerBlock("Ice_circular",
+    public static final RegistryObject<Block> ICE_CIRCULAR= registerBlock("ice_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_CRACKED= registerBlock("Ice_cracked",
+    public static final RegistryObject<Block> ICE_CRACKED= registerBlock("ice_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_CRACKED_BRICKS= registerBlock("Ice_cracked_bricks",
+    public static final RegistryObject<Block> ICE_CRACKED_BRICKS= registerBlock("ice_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_CUTS= registerBlock("Ice_cuts",
+    public static final RegistryObject<Block> ICE_CUTS= registerBlock("ice_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_DENT= registerBlock("Ice_dent",
+    public static final RegistryObject<Block> ICE_DENT= registerBlock("ice_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_ENCASED_BRICKS= registerBlock("Ice_encased_bricks",
+    public static final RegistryObject<Block> ICE_ENCASED_BRICKS= registerBlock("ice_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_FRENCH_ONE= registerBlock("Ice_french_one",
+    public static final RegistryObject<Block> ICE_FRENCH_ONE= registerBlock("ice_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_FRENCH_TWO= registerBlock("Ice_french_two",
+    public static final RegistryObject<Block> ICE_FRENCH_TWO= registerBlock("ice_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_JELLYBEAN= registerBlock("Ice_jellybean",
+    public static final RegistryObject<Block> ICE_JELLYBEAN= registerBlock("ice_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_LAYERS= registerBlock("Ice_layers",
+    public static final RegistryObject<Block> ICE_LAYERS= registerBlock("ice_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_MOSAIC= registerBlock("Ice_mosaic",
+    public static final RegistryObject<Block> ICE_MOSAIC= registerBlock("ice_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_ORNATE= registerBlock("Ice_ornate",
+    public static final RegistryObject<Block> ICE_ORNATE= registerBlock("ice_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_PANEL= registerBlock("Ice_panel",
+    public static final RegistryObject<Block> ICE_PANEL= registerBlock("ice_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_PILLAR= registerBlock("Ice_pillar",
+    public static final RegistryObject<Block> ICE_PILLAR= registerBlock("ice_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_PRISM= registerBlock("Ice_prism",
+    public static final RegistryObject<Block> ICE_PRISM= registerBlock("ice_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_RAW= registerBlock("Ice_raw",
+    public static final RegistryObject<Block> ICE_RAW= registerBlock("ice_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_ROAD= registerBlock("Ice_road",
+    public static final RegistryObject<Block> ICE_ROAD= registerBlock("ice_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_SLANTED= registerBlock("Ice_slanted",
+    public static final RegistryObject<Block> ICE_SLANTED= registerBlock("ice_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_SMALL_BRICKS= registerBlock("Ice_small_bricks",
+    public static final RegistryObject<Block> ICE_SMALL_BRICKS= registerBlock("ice_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_SOFT_BRICKS= registerBlock("Ice_soft_bricks",
+    public static final RegistryObject<Block> ICE_SOFT_BRICKS= registerBlock("ice_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_SOLID_BRICKS= registerBlock("Ice_solid_bricks",
+    public static final RegistryObject<Block> ICE_SOLID_BRICKS= registerBlock("ice_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_TILES_LARGE= registerBlock("Ice_tiles_large",
+    public static final RegistryObject<Block> ICE_TILES_LARGE= registerBlock("ice_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_TILES_MEDIUM= registerBlock("Ice_tiles_medium",
+    public static final RegistryObject<Block> ICE_TILES_MEDIUM= registerBlock("ice_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_TILES_SMALL= registerBlock("Ice_tiles_small",
+    public static final RegistryObject<Block> ICE_TILES_SMALL= registerBlock("ice_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_TRIPLE_BRICKS= registerBlock("Ice_triple_bricks",
+    public static final RegistryObject<Block> ICE_TRIPLE_BRICKS= registerBlock("ice_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_TWISTED= registerBlock("Ice_twisted",
+    public static final RegistryObject<Block> ICE_TWISTED= registerBlock("ice_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_WEAVER= registerBlock("Ice_weaver",
+    public static final RegistryObject<Block> ICE_WEAVER= registerBlock("ice_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Ice {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ICE_ZAG= registerBlock("Ice_zag",
+    public static final RegistryObject<Block> ICE_ZAG= registerBlock("ice_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

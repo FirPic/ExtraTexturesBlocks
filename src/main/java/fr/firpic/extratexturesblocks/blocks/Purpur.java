@@ -21,7 +21,7 @@ public class Purpur {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> PURPUR_ARRAY= registerBlock("Purpur_array",
+    public static final RegistryObject<Block> PURPUR_ARRAY= registerBlock("purpur_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_BRAID= registerBlock("Purpur_braid",
+    public static final RegistryObject<Block> PURPUR_BRAID= registerBlock("purpur_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_CHAOTIC_BRICKS= registerBlock("Purpur_chaotic_bricks",
+    public static final RegistryObject<Block> PURPUR_CHAOTIC_BRICKS= registerBlock("purpur_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_CHAOTIC_MEDIUM= registerBlock("Purpur_chaotic_medium",
+    public static final RegistryObject<Block> PURPUR_CHAOTIC_MEDIUM= registerBlock("purpur_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_CHAOTIC_SMALL= registerBlock("Purpur_chaotic_small",
+    public static final RegistryObject<Block> PURPUR_CHAOTIC_SMALL= registerBlock("purpur_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_CIRCULAR= registerBlock("Purpur_circular",
+    public static final RegistryObject<Block> PURPUR_CIRCULAR= registerBlock("purpur_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_CRACKED= registerBlock("Purpur_cracked",
+    public static final RegistryObject<Block> PURPUR_CRACKED= registerBlock("purpur_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_CRACKED_BRICKS= registerBlock("Purpur_cracked_bricks",
+    public static final RegistryObject<Block> PURPUR_CRACKED_BRICKS= registerBlock("purpur_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_CUTS= registerBlock("Purpur_cuts",
+    public static final RegistryObject<Block> PURPUR_CUTS= registerBlock("purpur_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_DENT= registerBlock("Purpur_dent",
+    public static final RegistryObject<Block> PURPUR_DENT= registerBlock("purpur_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_ENCASED_BRICKS= registerBlock("Purpur_encased_bricks",
+    public static final RegistryObject<Block> PURPUR_ENCASED_BRICKS= registerBlock("purpur_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_FRENCH_ONE= registerBlock("Purpur_french_one",
+    public static final RegistryObject<Block> PURPUR_FRENCH_ONE= registerBlock("purpur_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_FRENCH_TWO= registerBlock("Purpur_french_two",
+    public static final RegistryObject<Block> PURPUR_FRENCH_TWO= registerBlock("purpur_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_JELLYBEAN= registerBlock("Purpur_jellybean",
+    public static final RegistryObject<Block> PURPUR_JELLYBEAN= registerBlock("purpur_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_LAYERS= registerBlock("Purpur_layers",
+    public static final RegistryObject<Block> PURPUR_LAYERS= registerBlock("purpur_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_MOSAIC= registerBlock("Purpur_mosaic",
+    public static final RegistryObject<Block> PURPUR_MOSAIC= registerBlock("purpur_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_ORNATE= registerBlock("Purpur_ornate",
+    public static final RegistryObject<Block> PURPUR_ORNATE= registerBlock("purpur_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_PANEL= registerBlock("Purpur_panel",
+    public static final RegistryObject<Block> PURPUR_PANEL= registerBlock("purpur_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_PILLAR= registerBlock("Purpur_pillar",
+    public static final RegistryObject<Block> PURPUR_PILLAR= registerBlock("purpur_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_PRISM= registerBlock("Purpur_prism",
+    public static final RegistryObject<Block> PURPUR_PRISM= registerBlock("purpur_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_RAW= registerBlock("Purpur_raw",
+    public static final RegistryObject<Block> PURPUR_RAW= registerBlock("purpur_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_ROAD= registerBlock("Purpur_road",
+    public static final RegistryObject<Block> PURPUR_ROAD= registerBlock("purpur_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_SLANTED= registerBlock("Purpur_slanted",
+    public static final RegistryObject<Block> PURPUR_SLANTED= registerBlock("purpur_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_SMALL_BRICKS= registerBlock("Purpur_small_bricks",
+    public static final RegistryObject<Block> PURPUR_SMALL_BRICKS= registerBlock("purpur_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_SOFT_BRICKS= registerBlock("Purpur_soft_bricks",
+    public static final RegistryObject<Block> PURPUR_SOFT_BRICKS= registerBlock("purpur_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_SOLID_BRICKS= registerBlock("Purpur_solid_bricks",
+    public static final RegistryObject<Block> PURPUR_SOLID_BRICKS= registerBlock("purpur_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_TILES_LARGE= registerBlock("Purpur_tiles_large",
+    public static final RegistryObject<Block> PURPUR_TILES_LARGE= registerBlock("purpur_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_TILES_MEDIUM= registerBlock("Purpur_tiles_medium",
+    public static final RegistryObject<Block> PURPUR_TILES_MEDIUM= registerBlock("purpur_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_TILES_SMALL= registerBlock("Purpur_tiles_small",
+    public static final RegistryObject<Block> PURPUR_TILES_SMALL= registerBlock("purpur_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_TRIPLE_BRICKS= registerBlock("Purpur_triple_bricks",
+    public static final RegistryObject<Block> PURPUR_TRIPLE_BRICKS= registerBlock("purpur_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_TWISTED= registerBlock("Purpur_twisted",
+    public static final RegistryObject<Block> PURPUR_TWISTED= registerBlock("purpur_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_WEAVER= registerBlock("Purpur_weaver",
+    public static final RegistryObject<Block> PURPUR_WEAVER= registerBlock("purpur_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Purpur {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> PURPUR_ZAG= registerBlock("Purpur_zag",
+    public static final RegistryObject<Block> PURPUR_ZAG= registerBlock("purpur_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

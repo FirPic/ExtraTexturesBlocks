@@ -21,7 +21,7 @@ public class Quartz {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> QUARTZ_ARRAY= registerBlock("Quartz_array",
+    public static final RegistryObject<Block> QUARTZ_ARRAY= registerBlock("quartz_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_BRAID= registerBlock("Quartz_braid",
+    public static final RegistryObject<Block> QUARTZ_BRAID= registerBlock("quartz_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_CHAOTIC_BRICKS= registerBlock("Quartz_chaotic_bricks",
+    public static final RegistryObject<Block> QUARTZ_CHAOTIC_BRICKS= registerBlock("quartz_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_CHAOTIC_MEDIUM= registerBlock("Quartz_chaotic_medium",
+    public static final RegistryObject<Block> QUARTZ_CHAOTIC_MEDIUM= registerBlock("quartz_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_CHAOTIC_SMALL= registerBlock("Quartz_chaotic_small",
+    public static final RegistryObject<Block> QUARTZ_CHAOTIC_SMALL= registerBlock("quartz_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_CIRCULAR= registerBlock("Quartz_circular",
+    public static final RegistryObject<Block> QUARTZ_CIRCULAR= registerBlock("quartz_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_CRACKED= registerBlock("Quartz_cracked",
+    public static final RegistryObject<Block> QUARTZ_CRACKED= registerBlock("quartz_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_CRACKED_BRICKS= registerBlock("Quartz_cracked_bricks",
+    public static final RegistryObject<Block> QUARTZ_CRACKED_BRICKS= registerBlock("quartz_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_CUTS= registerBlock("Quartz_cuts",
+    public static final RegistryObject<Block> QUARTZ_CUTS= registerBlock("quartz_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_DENT= registerBlock("Quartz_dent",
+    public static final RegistryObject<Block> QUARTZ_DENT= registerBlock("quartz_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_ENCASED_BRICKS= registerBlock("Quartz_encased_bricks",
+    public static final RegistryObject<Block> QUARTZ_ENCASED_BRICKS= registerBlock("quartz_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_FRENCH_ONE= registerBlock("Quartz_french_one",
+    public static final RegistryObject<Block> QUARTZ_FRENCH_ONE= registerBlock("quartz_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_FRENCH_TWO= registerBlock("Quartz_french_two",
+    public static final RegistryObject<Block> QUARTZ_FRENCH_TWO= registerBlock("quartz_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_JELLYBEAN= registerBlock("Quartz_jellybean",
+    public static final RegistryObject<Block> QUARTZ_JELLYBEAN= registerBlock("quartz_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_LAYERS= registerBlock("Quartz_layers",
+    public static final RegistryObject<Block> QUARTZ_LAYERS= registerBlock("quartz_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_MOSAIC= registerBlock("Quartz_mosaic",
+    public static final RegistryObject<Block> QUARTZ_MOSAIC= registerBlock("quartz_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_ORNATE= registerBlock("Quartz_ornate",
+    public static final RegistryObject<Block> QUARTZ_ORNATE= registerBlock("quartz_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_PANEL= registerBlock("Quartz_panel",
+    public static final RegistryObject<Block> QUARTZ_PANEL= registerBlock("quartz_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_PILLAR= registerBlock("Quartz_pillar",
+    public static final RegistryObject<Block> QUARTZ_PILLAR= registerBlock("quartz_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_PRISM= registerBlock("Quartz_prism",
+    public static final RegistryObject<Block> QUARTZ_PRISM= registerBlock("quartz_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_RAW= registerBlock("Quartz_raw",
+    public static final RegistryObject<Block> QUARTZ_RAW= registerBlock("quartz_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_ROAD= registerBlock("Quartz_road",
+    public static final RegistryObject<Block> QUARTZ_ROAD= registerBlock("quartz_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_SLANTED= registerBlock("Quartz_slanted",
+    public static final RegistryObject<Block> QUARTZ_SLANTED= registerBlock("quartz_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_SMALL_BRICKS= registerBlock("Quartz_small_bricks",
+    public static final RegistryObject<Block> QUARTZ_SMALL_BRICKS= registerBlock("quartz_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_SOFT_BRICKS= registerBlock("Quartz_soft_bricks",
+    public static final RegistryObject<Block> QUARTZ_SOFT_BRICKS= registerBlock("quartz_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_SOLID_BRICKS= registerBlock("Quartz_solid_bricks",
+    public static final RegistryObject<Block> QUARTZ_SOLID_BRICKS= registerBlock("quartz_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_TILES_LARGE= registerBlock("Quartz_tiles_large",
+    public static final RegistryObject<Block> QUARTZ_TILES_LARGE= registerBlock("quartz_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_TILES_MEDIUM= registerBlock("Quartz_tiles_medium",
+    public static final RegistryObject<Block> QUARTZ_TILES_MEDIUM= registerBlock("quartz_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_TILES_SMALL= registerBlock("Quartz_tiles_small",
+    public static final RegistryObject<Block> QUARTZ_TILES_SMALL= registerBlock("quartz_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_TRIPLE_BRICKS= registerBlock("Quartz_triple_bricks",
+    public static final RegistryObject<Block> QUARTZ_TRIPLE_BRICKS= registerBlock("quartz_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_TWISTED= registerBlock("Quartz_twisted",
+    public static final RegistryObject<Block> QUARTZ_TWISTED= registerBlock("quartz_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_WEAVER= registerBlock("Quartz_weaver",
+    public static final RegistryObject<Block> QUARTZ_WEAVER= registerBlock("quartz_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Quartz {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> QUARTZ_ZAG= registerBlock("Quartz_zag",
+    public static final RegistryObject<Block> QUARTZ_ZAG= registerBlock("quartz_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)

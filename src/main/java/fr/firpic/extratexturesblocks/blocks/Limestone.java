@@ -21,7 +21,7 @@ public class Limestone {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> LIMESTONE_ARRAY= registerBlock("Limestone_array",
+    public static final RegistryObject<Block> LIMESTONE_ARRAY= registerBlock("limestone_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_BRAID= registerBlock("Limestone_braid",
+    public static final RegistryObject<Block> LIMESTONE_BRAID= registerBlock("limestone_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_CHAOTIC_BRICKS= registerBlock("Limestone_chaotic_bricks",
+    public static final RegistryObject<Block> LIMESTONE_CHAOTIC_BRICKS= registerBlock("limestone_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_CHAOTIC_MEDIUM= registerBlock("Limestone_chaotic_medium",
+    public static final RegistryObject<Block> LIMESTONE_CHAOTIC_MEDIUM= registerBlock("limestone_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_CHAOTIC_SMALL= registerBlock("Limestone_chaotic_small",
+    public static final RegistryObject<Block> LIMESTONE_CHAOTIC_SMALL= registerBlock("limestone_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_CIRCULAR= registerBlock("Limestone_circular",
+    public static final RegistryObject<Block> LIMESTONE_CIRCULAR= registerBlock("limestone_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_CRACKED= registerBlock("Limestone_cracked",
+    public static final RegistryObject<Block> LIMESTONE_CRACKED= registerBlock("limestone_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_CRACKED_BRICKS= registerBlock("Limestone_cracked_bricks",
+    public static final RegistryObject<Block> LIMESTONE_CRACKED_BRICKS= registerBlock("limestone_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_CUTS= registerBlock("Limestone_cuts",
+    public static final RegistryObject<Block> LIMESTONE_CUTS= registerBlock("limestone_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_DENT= registerBlock("Limestone_dent",
+    public static final RegistryObject<Block> LIMESTONE_DENT= registerBlock("limestone_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_ENCASED_BRICKS= registerBlock("Limestone_encased_bricks",
+    public static final RegistryObject<Block> LIMESTONE_ENCASED_BRICKS= registerBlock("limestone_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_FRENCH_ONE= registerBlock("Limestone_french_one",
+    public static final RegistryObject<Block> LIMESTONE_FRENCH_ONE= registerBlock("limestone_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_FRENCH_TWO= registerBlock("Limestone_french_two",
+    public static final RegistryObject<Block> LIMESTONE_FRENCH_TWO= registerBlock("limestone_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_JELLYBEAN= registerBlock("Limestone_jellybean",
+    public static final RegistryObject<Block> LIMESTONE_JELLYBEAN= registerBlock("limestone_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_LAYERS= registerBlock("Limestone_layers",
+    public static final RegistryObject<Block> LIMESTONE_LAYERS= registerBlock("limestone_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_MOSAIC= registerBlock("Limestone_mosaic",
+    public static final RegistryObject<Block> LIMESTONE_MOSAIC= registerBlock("limestone_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_ORNATE= registerBlock("Limestone_ornate",
+    public static final RegistryObject<Block> LIMESTONE_ORNATE= registerBlock("limestone_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_PANEL= registerBlock("Limestone_panel",
+    public static final RegistryObject<Block> LIMESTONE_PANEL= registerBlock("limestone_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_PILLAR= registerBlock("Limestone_pillar",
+    public static final RegistryObject<Block> LIMESTONE_PILLAR= registerBlock("limestone_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_PRISM= registerBlock("Limestone_prism",
+    public static final RegistryObject<Block> LIMESTONE_PRISM= registerBlock("limestone_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_RAW= registerBlock("Limestone_raw",
+    public static final RegistryObject<Block> LIMESTONE_RAW= registerBlock("limestone_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_ROAD= registerBlock("Limestone_road",
+    public static final RegistryObject<Block> LIMESTONE_ROAD= registerBlock("limestone_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_SLANTED= registerBlock("Limestone_slanted",
+    public static final RegistryObject<Block> LIMESTONE_SLANTED= registerBlock("limestone_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_SMALL_BRICKS= registerBlock("Limestone_small_bricks",
+    public static final RegistryObject<Block> LIMESTONE_SMALL_BRICKS= registerBlock("limestone_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_SOFT_BRICKS= registerBlock("Limestone_soft_bricks",
+    public static final RegistryObject<Block> LIMESTONE_SOFT_BRICKS= registerBlock("limestone_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_SOLID_BRICKS= registerBlock("Limestone_solid_bricks",
+    public static final RegistryObject<Block> LIMESTONE_SOLID_BRICKS= registerBlock("limestone_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_TILES_LARGE= registerBlock("Limestone_tiles_large",
+    public static final RegistryObject<Block> LIMESTONE_TILES_LARGE= registerBlock("limestone_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_TILES_MEDIUM= registerBlock("Limestone_tiles_medium",
+    public static final RegistryObject<Block> LIMESTONE_TILES_MEDIUM= registerBlock("limestone_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_TILES_SMALL= registerBlock("Limestone_tiles_small",
+    public static final RegistryObject<Block> LIMESTONE_TILES_SMALL= registerBlock("limestone_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_TRIPLE_BRICKS= registerBlock("Limestone_triple_bricks",
+    public static final RegistryObject<Block> LIMESTONE_TRIPLE_BRICKS= registerBlock("limestone_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_TWISTED= registerBlock("Limestone_twisted",
+    public static final RegistryObject<Block> LIMESTONE_TWISTED= registerBlock("limestone_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_WEAVER= registerBlock("Limestone_weaver",
+    public static final RegistryObject<Block> LIMESTONE_WEAVER= registerBlock("limestone_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Limestone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> LIMESTONE_ZAG= registerBlock("Limestone_zag",
+    public static final RegistryObject<Block> LIMESTONE_ZAG= registerBlock("limestone_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
