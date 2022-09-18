@@ -36,6 +36,10 @@ authors = "FirPic" #optional
 description = '''
 this mod adds a very large amount of block such as decoration, construction, and many others
 '''
+
+# add the logo of mod
+logoFile="logo.png"
+
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.extratexturesblocks]] #optional
 # the modid of the dependency

@@ -46,10 +46,10 @@ def json_blockstates_model_loot_tables():
 
         
 
-        jsonWrite("..\\src\\main\\resources\\assets\\extratexturesblocks\\blockstates\\"+file ,'{"variants": {"": { "model":  "extratexturesblocks:block/'+block_name+'"}}}')
-        jsonWrite("..\\src\\main\\resources\\assets\\extratexturesblocks\\models\\block\\"+file ,'{"parent": "block/cube_all","textures": {"all": "extratexturesblocks:block/'+textures_folder+'/'+list_of_blocks[x]+'"}}')
-        jsonWrite("..\\src\\main\\resources\\assets\\extratexturesblocks\\models\\item\\"+file ,'{"parent": "extratexturesblocks:block/'+block_name+'"}')
-        jsonWrite("..\\src\\main\\resources\\data\\extratexturesblocks\\loot_tables\\blocks\\"+file ,'{"type": "minecraft:block","pools": [{"rolls": 1,"entries":[{"type": "minecraft:item","name": "extratexturesblocks:'+block_name+'"}]}]}')
+        jsonWrite("..\\src\\main\\resources\\assets\\extratexturesblocks\\blockstates\\"+file.lower() ,'{"variants": {"": { "model":  "extratexturesblocks:block/'+block_name.lower()+'"}}}')
+        jsonWrite("..\\src\\main\\resources\\assets\\extratexturesblocks\\models\\block\\"+file.lower() ,'{"parent": "block/cube_all","textures": {"all": "extratexturesblocks:block/'+textures_folder.lower()+'/'+list_of_blocks[x].lower()+'"}}')
+        jsonWrite("..\\src\\main\\resources\\assets\\extratexturesblocks\\models\\item\\"+file.lower() ,'{"parent": "extratexturesblocks:block/'+block_name.lower()+'"}')
+        jsonWrite("..\\src\\main\\resources\\data\\extratexturesblocks\\loot_tables\\blocks\\"+file.lower() ,'{"type": "minecraft:block","pools": [{"rolls": 1,"entries":[{"type": "minecraft:item","name": "extratexturesblocks:'+block_name.lower()+'"}]}]}')
 
         json_block_name(block_name)
         javaClassBlock(block_name)
@@ -93,7 +93,7 @@ def javaClassBlock(block):
 
 
 def javaClass(name):
-    javaFile=open("../src/main/java/fr/firpic/extratexturesblocks/blocks/"+name.title()+".java", "w+")
+    javaFile=open("../src/main/java/fr/firpic/extratexturesblocks/blocks/"+name.title().replace("_","")+".java", "w+")
     code='''package fr.firpic.extratexturesblocks.blocks;
 
 import fr.firpic.extratexturesblocks.EtbItemGroup;

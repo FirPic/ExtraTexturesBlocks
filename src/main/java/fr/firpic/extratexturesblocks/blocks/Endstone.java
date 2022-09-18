@@ -16,12 +16,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 import java.util.function.Supplier;
 
-public class Endstone {
+public class EndStone {
 
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
 
-    public static final RegistryObject<Block> ENDSTONE_ARRAY= registerBlock("endstone_array",
+    public static final RegistryObject<Block> END_STONE_ARRAY= registerBlock("end_stone_array",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -29,7 +29,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_BRAID= registerBlock("endstone_braid",
+    public static final RegistryObject<Block> END_STONE_BRAID= registerBlock("end_stone_braid",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -37,7 +37,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_CHAOTIC_BRICKS= registerBlock("endstone_chaotic_bricks",
+    public static final RegistryObject<Block> END_STONE_CHAOTIC_BRICKS= registerBlock("end_stone_chaotic_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -45,7 +45,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_CHAOTIC_MEDIUM= registerBlock("endstone_chaotic_medium",
+    public static final RegistryObject<Block> END_STONE_CHAOTIC_MEDIUM= registerBlock("end_stone_chaotic_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -53,7 +53,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_CHAOTIC_SMALL= registerBlock("endstone_chaotic_small",
+    public static final RegistryObject<Block> END_STONE_CHAOTIC_SMALL= registerBlock("end_stone_chaotic_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -61,7 +61,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_CIRCULAR= registerBlock("endstone_circular",
+    public static final RegistryObject<Block> END_STONE_CIRCULAR= registerBlock("end_stone_circular",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -69,7 +69,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_CRACKED= registerBlock("endstone_cracked",
+    public static final RegistryObject<Block> END_STONE_CRACKED= registerBlock("end_stone_cracked",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -77,7 +77,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_CRACKED_BRICKS= registerBlock("endstone_cracked_bricks",
+    public static final RegistryObject<Block> END_STONE_CRACKED_BRICKS= registerBlock("end_stone_cracked_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -85,7 +85,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_CUTS= registerBlock("endstone_cuts",
+    public static final RegistryObject<Block> END_STONE_CUTS= registerBlock("end_stone_cuts",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -93,7 +93,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_DENT= registerBlock("endstone_dent",
+    public static final RegistryObject<Block> END_STONE_DENT= registerBlock("end_stone_dent",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -101,7 +101,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_ENCASED_BRICKS= registerBlock("endstone_encased_bricks",
+    public static final RegistryObject<Block> END_STONE_ENCASED_BRICKS= registerBlock("end_stone_encased_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -109,7 +109,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_FRENCH_ONE= registerBlock("endstone_french_one",
+    public static final RegistryObject<Block> END_STONE_FRENCH_ONE= registerBlock("end_stone_french_one",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -117,7 +117,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_FRENCH_TWO= registerBlock("endstone_french_two",
+    public static final RegistryObject<Block> END_STONE_FRENCH_TWO= registerBlock("end_stone_french_two",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -125,7 +125,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_JELLYBEAN= registerBlock("endstone_jellybean",
+    public static final RegistryObject<Block> END_STONE_JELLYBEAN= registerBlock("end_stone_jellybean",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -133,7 +133,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_LAYERS= registerBlock("endstone_layers",
+    public static final RegistryObject<Block> END_STONE_LAYERS= registerBlock("end_stone_layers",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -141,7 +141,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_MOSAIC= registerBlock("endstone_mosaic",
+    public static final RegistryObject<Block> END_STONE_MOSAIC= registerBlock("end_stone_mosaic",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -149,7 +149,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_ORNATE= registerBlock("endstone_ornate",
+    public static final RegistryObject<Block> END_STONE_ORNATE= registerBlock("end_stone_ornate",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -157,7 +157,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_PANEL= registerBlock("endstone_panel",
+    public static final RegistryObject<Block> END_STONE_PANEL= registerBlock("end_stone_panel",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -165,7 +165,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_PILLAR= registerBlock("endstone_pillar",
+    public static final RegistryObject<Block> END_STONE_PILLAR= registerBlock("end_stone_pillar",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -173,7 +173,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_PRISM= registerBlock("endstone_prism",
+    public static final RegistryObject<Block> END_STONE_PRISM= registerBlock("end_stone_prism",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -181,7 +181,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_RAW= registerBlock("endstone_raw",
+    public static final RegistryObject<Block> END_STONE_RAW= registerBlock("end_stone_raw",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -189,7 +189,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_ROAD= registerBlock("endstone_road",
+    public static final RegistryObject<Block> END_STONE_ROAD= registerBlock("end_stone_road",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -197,7 +197,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_SLANTED= registerBlock("endstone_slanted",
+    public static final RegistryObject<Block> END_STONE_SLANTED= registerBlock("end_stone_slanted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -205,7 +205,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_SMALL_BRICKS= registerBlock("endstone_small_bricks",
+    public static final RegistryObject<Block> END_STONE_SMALL_BRICKS= registerBlock("end_stone_small_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -213,7 +213,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_SOFT_BRICKS= registerBlock("endstone_soft_bricks",
+    public static final RegistryObject<Block> END_STONE_SOFT_BRICKS= registerBlock("end_stone_soft_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -221,7 +221,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_SOLID_BRICKS= registerBlock("endstone_solid_bricks",
+    public static final RegistryObject<Block> END_STONE_SOLID_BRICKS= registerBlock("end_stone_solid_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -229,7 +229,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_TILES_LARGE= registerBlock("endstone_tiles_large",
+    public static final RegistryObject<Block> END_STONE_TILES_LARGE= registerBlock("end_stone_tiles_large",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -237,7 +237,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_TILES_MEDIUM= registerBlock("endstone_tiles_medium",
+    public static final RegistryObject<Block> END_STONE_TILES_MEDIUM= registerBlock("end_stone_tiles_medium",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -245,7 +245,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_TILES_SMALL= registerBlock("endstone_tiles_small",
+    public static final RegistryObject<Block> END_STONE_TILES_SMALL= registerBlock("end_stone_tiles_small",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -253,7 +253,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_TRIPLE_BRICKS= registerBlock("endstone_triple_bricks",
+    public static final RegistryObject<Block> END_STONE_TRIPLE_BRICKS= registerBlock("end_stone_triple_bricks",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -261,7 +261,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_TWISTED= registerBlock("endstone_twisted",
+    public static final RegistryObject<Block> END_STONE_TWISTED= registerBlock("end_stone_twisted",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -269,7 +269,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_WEAVER= registerBlock("endstone_weaver",
+    public static final RegistryObject<Block> END_STONE_WEAVER= registerBlock("end_stone_weaver",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -277,7 +277,7 @@ public class Endstone {
             .hardnessAndResistance(5f)
     ));
 
-    public static final RegistryObject<Block> ENDSTONE_ZAG= registerBlock("endstone_zag",
+    public static final RegistryObject<Block> END_STONE_ZAG= registerBlock("end_stone_zag",
         ()-> new Block(AbstractBlock.Properties.create(Material.ROCK)
             .harvestLevel(2)
             .harvestTool(ToolType.PICKAXE)
@@ -295,7 +295,7 @@ public class Endstone {
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block){
         EtbItemsRegistry.ITEMS.register(name, ()->new BlockItem(block.get(),
-                new Item.Properties().group(EtbItemGroup.EndstoneGroup)));
+                new Item.Properties().group(EtbItemGroup.End_StoneGroup)));
     }
 
 

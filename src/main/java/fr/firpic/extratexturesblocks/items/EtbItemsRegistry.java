@@ -16,8 +16,8 @@ public class EtbItemsRegistry {
             DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MOD_ID);
 
 
-    public static final RegistryObject<Item>  ARRAY = ITEMS.register("array",
-            () -> new Item(new Item.Properties().group(EtbItemGroup.EtbGroup)));
+    public static final RegistryObject<Item> TRANF = ITEMS.register("tranf",
+            () -> new Item(new Item.Properties().group(ItemGroup.DECORATIONS)));
 
 
     public static void register(IEventBus eventBus){

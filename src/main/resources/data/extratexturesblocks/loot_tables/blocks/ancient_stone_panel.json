@@ -1,14 +1,1 @@
-{
-  "type": "minecraft:block",
-  "pools": [
-    {
-      "rolls": 1,
-      "entries":[
-        {
-          "type": "minecraft:item",
-          "name": "extratexturesblocks:ancient_stone_panel"
-        }
-      ]
-    }
-  ]
-}
+{"type": "minecraft:block","pools": [{"rolls": 1,"entries":[{"type": "minecraft:item","name": "extratexturesblocks:ancient_stone_panel"}]}]}
